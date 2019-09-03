@@ -1,0 +1,26 @@
+{
+  "total" : 15,
+  "items" : [ {
+    "uid" : "cfc31090b473d51bf6e85e2714d6c246",
+    "name" : "Use case : Place and order as an unrgistered user and get the check all the totals with products and totals in all the pages",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "5636cc8071c6ce6eda7bf0df377c865e",
+    "name" : "Use case : Place and order as an Registered user and get the check all the totals with products and totals in all the pages",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}

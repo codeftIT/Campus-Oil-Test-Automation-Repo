@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "632b48b5fc941783eacb27fd1433a1a2",
+    "name" : "Campus Oil Test Automation Suite",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "29f4dcc45a0e26cd7c7462063cee854b",
+    "name" : "Suite",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 2,
+      "skipped" : 2,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 7
+    }
+  } ]
+}

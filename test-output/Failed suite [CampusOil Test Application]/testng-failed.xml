@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [CampusOil Test Application]]">
+  <listeners>
+    <listener class-name="com.qa.CampusOil.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Campus Oil Test Suite(failed)(failed)">
+    <classes>
+      <class name="com.campus.qa.testcases.HomePageTest">
+        <methods>
+          <include name="verifyPageHeaderBannerLinks"/>
+          <include name="verifyTitle"/>
+          <include name="endSuite"/>
+          <include name="tearDown"/>
+          <include name="verifyHomepageLinks"/>
+          <include name="verifyLogoTest"/>
+          <include name="verifyPageFooterLogoTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.campus.qa.testcases.HomePageTest -->
+      <class name="com.campus.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifycampusLogoTest"/>
+          <include name="startsuite"/>
+          <include name="VerifyloginPageTitleTest"/>
+          <include name="setUp"/>
+          <include name="VerifyclickLoginnowTest"/>
+          <include name="VerifyloginTest"/>
+        </methods>
+      </class> <!-- com.campus.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Campus Oil Test Suite(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [CampusOil Test Application]] -->

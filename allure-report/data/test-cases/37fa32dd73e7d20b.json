@@ -1,0 +1,108 @@
+{
+  "uid" : "37fa32dd73e7d20b",
+  "name" : "verifyNewsLinkTest",
+  "fullName" : "com.campus.qa.testcases.HomePageTest.verifyNewsLinkTest",
+  "historyId" : "aa8357723f863f25c614c71492061589",
+  "time" : {
+    "start" : 1566998980847,
+    "stop" : 1566998982760,
+    "duration" : 1913
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1566998971738,
+      "stop" : 1566998980840,
+      "duration" : 9102
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1566998982763,
+      "stop" : 1566998983605,
+      "duration" : 842
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "endSuite",
+    "time" : {
+      "start" : 1566998998013,
+      "stop" : 1566998998013,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.campus.qa.testcases.HomePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.campus.qa.testcases.HomePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyNewsLinkTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Campus Oil Test Automation Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Automated Test Run"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.campus.qa.testcases.HomePageTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AL9GHFP"
+  }, {
+    "name" : "thread",
+    "value" : "8804@DESKTOP-AL9GHFP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "37fa32dd73e7d20b.json",
+  "parameterValues" : [ ]
+}

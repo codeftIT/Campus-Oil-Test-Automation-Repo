@@ -1,0 +1,258 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Suite",
+    "children" : [ {
+      "name" : "Test",
+      "children" : [ {
+        "name" : "com.campus.qa.testcases.PlaceOrderAsRegisteredUserTest",
+        "children" : [ {
+          "name" : "setUp",
+          "uid" : "3fe79ae20cba873e",
+          "parentUid" : "1969cc0c5f5bb1049fd610b7832973f6",
+          "status" : "broken",
+          "time" : {
+            "start" : 1566981939343,
+            "stop" : 1566981939347,
+            "duration" : 4
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Verifying the unregistered user to place the order",
+          "uid" : "91ec2c062a19288",
+          "parentUid" : "1969cc0c5f5bb1049fd610b7832973f6",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1566981939462,
+            "stop" : 1566981939466,
+            "duration" : 4
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Verifying the registered user to place the order",
+          "uid" : "6121c578a642b0d6",
+          "parentUid" : "1969cc0c5f5bb1049fd610b7832973f6",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1566981939557,
+            "stop" : 1566981939557,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1969cc0c5f5bb1049fd610b7832973f6"
+      }, {
+        "name" : "com.campus.qa.testcases.LoginPageTest",
+        "children" : [ {
+          "name" : "VerifyloginPageTitleTest",
+          "uid" : "aa1a946a0127f268",
+          "parentUid" : "1aa6fdb8b93930ea784c1aaeffdce952",
+          "status" : "failed",
+          "time" : {
+            "start" : 1566984967856,
+            "stop" : 1566984967918,
+            "duration" : 62
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "VerifycampusLogoTest",
+          "uid" : "d01d67c51aed574c",
+          "parentUid" : "1aa6fdb8b93930ea784c1aaeffdce952",
+          "status" : "passed",
+          "time" : {
+            "start" : 1566984979837,
+            "stop" : 1566984980117,
+            "duration" : 280
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "VerifyclickLoginnowTest",
+          "uid" : "43c1e529798d9972",
+          "parentUid" : "1aa6fdb8b93930ea784c1aaeffdce952",
+          "status" : "passed",
+          "time" : {
+            "start" : 1566984992311,
+            "stop" : 1566984994805,
+            "duration" : 2494
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "VerifyloginTest",
+          "uid" : "db2d0944b63a9c1b",
+          "parentUid" : "1aa6fdb8b93930ea784c1aaeffdce952",
+          "status" : "broken",
+          "time" : {
+            "start" : 1566985004603,
+            "stop" : 1566985028982,
+            "duration" : 24379
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1aa6fdb8b93930ea784c1aaeffdce952"
+      } ],
+      "uid" : "7314231e84d67a341867b5c9d3f928d2"
+    } ],
+    "uid" : "29f4dcc45a0e26cd7c7462063cee854b"
+  }, {
+    "name" : "Campus Oil Test Automation Suite",
+    "children" : [ {
+      "name" : "Automated Test Run",
+      "children" : [ {
+        "name" : "com.campus.qa.testcases.HomePageTest",
+        "children" : [ {
+          "name" : "verifyLogoTest",
+          "uid" : "799c256b66802289",
+          "parentUid" : "6263c9ce22c1e597265a3a494b1bb4cf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1567001061613,
+            "stop" : 1567001061797,
+            "duration" : 184
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifyHomepageLinks",
+          "uid" : "a90d9f41cced318b",
+          "parentUid" : "6263c9ce22c1e597265a3a494b1bb4cf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1567001270743,
+            "stop" : 1567001271318,
+            "duration" : 575
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifyPageHeaderBannerLinks",
+          "uid" : "36550debb7879cb4",
+          "parentUid" : "6263c9ce22c1e597265a3a494b1bb4cf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1567001467330,
+            "stop" : 1567001467535,
+            "duration" : 205
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifyPageFooterLogoTest",
+          "uid" : "71070d1bc23b4083",
+          "parentUid" : "6263c9ce22c1e597265a3a494b1bb4cf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1567001477190,
+            "stop" : 1567001477290,
+            "duration" : 100
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifyTitle",
+          "uid" : "ab39c7507c2aa97c",
+          "parentUid" : "6263c9ce22c1e597265a3a494b1bb4cf",
+          "status" : "failed",
+          "time" : {
+            "start" : 1567001487474,
+            "stop" : 1567001489465,
+            "duration" : 1991
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifyAboutUSLinkTest",
+          "uid" : "60da2b659640a719",
+          "parentUid" : "6263c9ce22c1e597265a3a494b1bb4cf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1567001499409,
+            "stop" : 1567001501368,
+            "duration" : 1959
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifyNewsLinkTest",
+          "uid" : "f46547ec542cd2df",
+          "parentUid" : "6263c9ce22c1e597265a3a494b1bb4cf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1567001510740,
+            "stop" : 1567001512600,
+            "duration" : 1860
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifyOrderFormpageLinkTest",
+          "uid" : "92c075995ff1083",
+          "parentUid" : "6263c9ce22c1e597265a3a494b1bb4cf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1567001522937,
+            "stop" : 1567001524757,
+            "duration" : 1820
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6263c9ce22c1e597265a3a494b1bb4cf"
+      }, {
+        "name" : "com.campus.qa.testcases.PlaceOrderAsRegisteredUserTest",
+        "children" : [ {
+          "name" : "Verifying the unregistered user to place the order",
+          "uid" : "e9f79f89dd9683c9",
+          "parentUid" : "b06602798e16234bb118a0d209912994",
+          "status" : "broken",
+          "time" : {
+            "start" : 1567001076841,
+            "stop" : 1567001258303,
+            "duration" : 181462
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "mr", "91-12345678", "040-123456" ]
+        }, {
+          "name" : "Verifying the registered user to place the order",
+          "uid" : "2abc2421ff114f81",
+          "parentUid" : "b06602798e16234bb118a0d209912994",
+          "status" : "broken",
+          "time" : {
+            "start" : 1567001281300,
+            "stop" : 1567001456521,
+            "duration" : 175221
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "mr", "91-12345678", "040-123456" ]
+        } ],
+        "uid" : "b06602798e16234bb118a0d209912994"
+      } ],
+      "uid" : "da0d26875db318df434c57f9889fd0f9"
+    } ],
+    "uid" : "632b48b5fc941783eacb27fd1433a1a2"
+  } ]
+}
