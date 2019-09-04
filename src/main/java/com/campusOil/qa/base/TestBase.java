@@ -78,11 +78,11 @@ public class TestBase {
 			 * case 8 : Device = "iPhone X"; 
 			 * case 9 : Device = "iPad"; 
 			 * case 10: Device = "iPad Pro"; 
-			 * case 11: Device = "Galaxy Note 3"; case
-			 * 12: Device = "Nexus 10"; 
+			 * case 11: Device = "Galaxy Note 3"; 
+			 * case 12: Device = "Nexus 10"; 
 			 * case 13 :Device = "JioPhone 2";
 			 */
-			mobileEmulation.put("deviceName", "iPhone X");
+			mobileEmulation.put("deviceName", "iPad");
 
 			ChromeOptions chromeOptions = new ChromeOptions();
 			chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
