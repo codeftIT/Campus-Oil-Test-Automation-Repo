@@ -1,3 +1,4 @@
+
 package com.campusOil.qa.pages;
 
 import java.text.DateFormat;
@@ -1103,7 +1104,7 @@ public class PlaceOrderAsRegisteredUser extends TestBase {
 		ExpectedCondition<WebElement> waitForTablist = ExpectedConditions.visibilityOf(ConfirmationTab);
 		Thread.sleep(3000);
 
-		if (ConfirmationTab.isDisplayed()) {
+		if (ThankYouMessage.isDisplayed()) {
 			System.out
 					.println(conhan.PURPLE_BACKGROUND_BRIGHT + "*****SUCCESFULLY PLACED THE ORDER****" + conhan.RESET);
 		} else {

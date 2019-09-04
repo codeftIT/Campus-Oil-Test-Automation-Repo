@@ -2,110 +2,123 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "timeout\n  (Session info: chrome=76.0.3809.100)\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-AL9GHFP', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\\Users\\dell\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49179}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: dcf3fdc565706a7cd099890eecbda1c5",
-      "children" : [ {
-        "name" : "setUp",
-        "uid" : "3fe79ae20cba873e",
-        "parentUid" : "eb371097d4d764aeb982661e680de9a7",
-        "status" : "broken",
-        "time" : {
-          "start" : 1566981939343,
-          "stop" : 1566981939347,
-          "duration" : 4
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "eb371097d4d764aeb982661e680de9a7"
-    }, {
-      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@class,'page-header-background')]//p[contains(@class,'pseudo-h1')][contains(text(),'MY ACCOUNT')]\"}\n  (Session info: chrome=76.0.3809.100)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-AL9GHFP', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\\Users\\dell\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51057}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 0979c883e1181518039733af11e63801\n*** Element info: {Using=xpath, value=//div[contains(@class,'page-header-background')]//p[contains(@class,'pseudo-h1')][contains(text(),'MY ACCOUNT')]}",
-      "children" : [ {
-        "name" : "VerifyloginTest",
-        "uid" : "db2d0944b63a9c1b",
-        "parentUid" : "258579128d2bec1a90db27aa20f3c18a",
-        "status" : "broken",
-        "time" : {
-          "start" : 1566985004603,
-          "stop" : 1566985028982,
-          "duration" : 24379
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "258579128d2bec1a90db27aa20f3c18a"
-    }, {
-      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h2[contains(text(),'Thank you. Your order has been received.')]\"}\n  (Session info: chrome=76.0.3809.100)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-AL9GHFP', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\\Users\\dell\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63821}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 594046c7791d9a79b54f925f9f70f284\n*** Element info: {Using=xpath, value=//h2[contains(text(),'Thank you. Your order has been received.')]}",
-      "children" : [ {
-        "name" : "Verifying the unregistered user to place the order",
-        "uid" : "e9f79f89dd9683c9",
-        "parentUid" : "bfc0d16aeb64411c5214a13a7466fd1f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1567001076841,
-          "stop" : 1567001258303,
-          "duration" : 181462
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "mr", "91-12345678", "040-123456" ]
-      } ],
-      "uid" : "bfc0d16aeb64411c5214a13a7466fd1f"
-    }, {
-      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h2[contains(text(),'Thank you. Your order has been received.')]\"}\n  (Session info: chrome=76.0.3809.100)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-AL9GHFP', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\\Users\\dell\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64103}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 9ddf7f211c2b900ef2e3b298b9a28058\n*** Element info: {Using=xpath, value=//h2[contains(text(),'Thank you. Your order has been received.')]}",
-      "children" : [ {
-        "name" : "Verifying the registered user to place the order",
-        "uid" : "2abc2421ff114f81",
-        "parentUid" : "2f99e828cedefce88c356e69e04e2a8a",
-        "status" : "broken",
-        "time" : {
-          "start" : 1567001281300,
-          "stop" : 1567001456521,
-          "duration" : 175221
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "mr", "91-12345678", "040-123456" ]
-      } ],
-      "uid" : "2f99e828cedefce88c356e69e04e2a8a"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  }, {
     "name" : "Product defects",
     "children" : [ {
       "name" : "expected [Order Heating Oil Online Buy Heating Oil Ireland] but found [Order Home Heating Oil Online Buy Heating Oil Ireland]",
       "children" : [ {
-        "name" : "VerifyloginPageTitleTest",
-        "uid" : "aa1a946a0127f268",
+        "name" : "verifyTitle",
+        "uid" : "de77eb525897f976",
         "parentUid" : "e3f455877510be9e1f0d5210e3c4f8fd",
         "status" : "failed",
         "time" : {
-          "start" : 1566984967856,
-          "stop" : 1566984967918,
-          "duration" : 62
+          "start" : 1567078461636,
+          "stop" : 1567078464797,
+          "duration" : 3161
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "verifyTitle",
-        "uid" : "ab39c7507c2aa97c",
+        "name" : "VerifyloginPageTitleTest",
+        "uid" : "7d970a1387c86480",
         "parentUid" : "e3f455877510be9e1f0d5210e3c4f8fd",
         "status" : "failed",
         "time" : {
-          "start" : 1567001487474,
-          "stop" : 1567001489465,
-          "duration" : 1991
+          "start" : 1567581314908,
+          "stop" : 1567581316822,
+          "duration" : 1914
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
       "uid" : "e3f455877510be9e1f0d5210e3c4f8fd"
+    }, {
+      "name" : "expected [true] but found [false]",
+      "children" : [ {
+        "name" : "VerifycampusLogoTest",
+        "uid" : "958fee593f055bbc",
+        "parentUid" : "067aa11ae245eca950dc984999fefd6d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1567581329720,
+          "stop" : 1567581331551,
+          "duration" : 1831
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "067aa11ae245eca950dc984999fefd6d"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "java.lang.NullPointerException",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "bf153db1e81ce48a",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567148932897,
+          "stop" : 1567148932897,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "tearDown",
+        "uid" : "66dfc446b0bfe059",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567149591345,
+          "stop" : 1567149591345,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5592898b36d684905e31486a23088bda"
+    }, {
+      "name" : "element not interactable\n  (Session info: chrome=76.0.3809.132)\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-AL9GHFP', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\\Users\\dell\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57250}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 7511980a379a418e21e59fb66e572d27",
+      "children" : [ {
+        "name" : "VerifyclickLoginnowTest",
+        "uid" : "a1ce9a79450f35c9",
+        "parentUid" : "c5f603a3e80665713ebd392039f07bb2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567581343591,
+          "stop" : 1567581366631,
+          "duration" : 23040
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c5f603a3e80665713ebd392039f07bb2"
+    }, {
+      "name" : "element not interactable\n  (Session info: chrome=76.0.3809.132)\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-AL9GHFP', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\\Users\\dell\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57294}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 85aa89d5e00a918908ab54906832bb61",
+      "children" : [ {
+        "name" : "VerifyloginTest",
+        "uid" : "ff86bc78024a11f6",
+        "parentUid" : "c6b8080daba937bc0e2c9639d21cf9e2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567581379310,
+          "stop" : 1567581402394,
+          "duration" : 23084
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c6b8080daba937bc0e2c9639d21cf9e2"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }

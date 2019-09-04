@@ -4,213 +4,135 @@
   "children" : [ {
     "name" : "DESKTOP-AL9GHFP",
     "children" : [ {
-      "name" : "8804@DESKTOP-AL9GHFP.main(1)",
+      "name" : "15464@DESKTOP-AL9GHFP.main(1)",
       "children" : [ {
-        "name" : "verifyPageHeaderBannerLinks",
-        "uid" : "b03723a1bc6d1ac8",
-        "parentUid" : "11cb2627f49bcff9078b5d24043469fc",
+        "name" : "Verifying the unregistered user to place the order",
+        "uid" : "70f18ec8b23b58a3",
+        "parentUid" : "a5b42c633f24e18fa2fe9134ab7b7335",
         "status" : "passed",
         "time" : {
-          "start" : 1566998933295,
-          "stop" : 1566998933547,
-          "duration" : 252
+          "start" : 1567582317709,
+          "stop" : 1567582534087,
+          "duration" : 216378
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+      }, {
+        "name" : "Verifying the registered user to place the order",
+        "uid" : "28ef8c35188c250e",
+        "parentUid" : "a5b42c633f24e18fa2fe9134ab7b7335",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567582544340,
+          "stop" : 1567582758705,
+          "duration" : 214365
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+      } ],
+      "uid" : "a5b42c633f24e18fa2fe9134ab7b7335"
+    }, {
+      "name" : "8272@DESKTOP-AL9GHFP.main(1)",
+      "children" : [ {
+        "name" : "Verifying the unregistered user to place the order",
+        "uid" : "4b046ffebe9dd005",
+        "parentUid" : "73607df79865a5d0bd35e56d37d0352b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567149280646,
+          "stop" : 1567149280666,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+      }, {
+        "name" : "Verifying the registered user to place the order",
+        "uid" : "fd0c142dc9a518ce",
+        "parentUid" : "73607df79865a5d0bd35e56d37d0352b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1567149280826,
+          "stop" : 1567149280826,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "verifyTitle",
-        "uid" : "8fb1a4e6224e273a",
-        "parentUid" : "11cb2627f49bcff9078b5d24043469fc",
+        "name" : "tearDown",
+        "uid" : "a9b51483a047916f",
+        "parentUid" : "73607df79865a5d0bd35e56d37d0352b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567149280706,
+          "stop" : 1567149280706,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "73607df79865a5d0bd35e56d37d0352b"
+    }, {
+      "name" : "15124@DESKTOP-AL9GHFP.main(1)",
+      "children" : [ {
+        "name" : "Verifying the registered user to place the order",
+        "uid" : "a5e97c4a60c0af6b",
+        "parentUid" : "2ffbe175addd9f33fe55ab7655d1f7a1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567001281300,
+          "stop" : 1567001456521,
+          "duration" : 175221
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+      }, {
+        "name" : "VerifyloginPageTitleTest",
+        "uid" : "7d970a1387c86480",
+        "parentUid" : "2ffbe175addd9f33fe55ab7655d1f7a1",
         "status" : "failed",
         "time" : {
-          "start" : 1566998955864,
-          "stop" : 1566998957299,
-          "duration" : 1435
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "verifyLogoTest",
-        "uid" : "851bf922543421c",
-        "parentUid" : "11cb2627f49bcff9078b5d24043469fc",
-        "status" : "passed",
-        "time" : {
-          "start" : 1566998911088,
-          "stop" : 1566998911311,
-          "duration" : 223
+          "start" : 1567581314908,
+          "stop" : 1567581316822,
+          "duration" : 1914
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "verifyNewsLinkTest",
-        "uid" : "37fa32dd73e7d20b",
-        "parentUid" : "11cb2627f49bcff9078b5d24043469fc",
+        "uid" : "504a978eec513d06",
+        "parentUid" : "2ffbe175addd9f33fe55ab7655d1f7a1",
         "status" : "passed",
         "time" : {
-          "start" : 1566998980847,
-          "stop" : 1566998982760,
-          "duration" : 1913
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "verifyPageFooterLogoTest",
-        "uid" : "344c5dac7219160f",
-        "parentUid" : "11cb2627f49bcff9078b5d24043469fc",
-        "status" : "passed",
-        "time" : {
-          "start" : 1566998945416,
-          "stop" : 1566998945638,
-          "duration" : 222
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "verifyOrderFormpageLinkTest",
-        "uid" : "2727eb264710ed3d",
-        "parentUid" : "11cb2627f49bcff9078b5d24043469fc",
-        "status" : "passed",
-        "time" : {
-          "start" : 1566998994694,
-          "stop" : 1566998997144,
-          "duration" : 2450
+          "start" : 1567001510740,
+          "stop" : 1567001512600,
+          "duration" : 1860
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "verifyAboutUSLinkTest",
-        "uid" : "25af284dfe8c9908",
-        "parentUid" : "11cb2627f49bcff9078b5d24043469fc",
+        "uid" : "107a8f573eb16dd0",
+        "parentUid" : "2ffbe175addd9f33fe55ab7655d1f7a1",
         "status" : "passed",
         "time" : {
-          "start" : 1566998968662,
-          "stop" : 1566998970934,
-          "duration" : 2272
+          "start" : 1567001499409,
+          "stop" : 1567001501368,
+          "duration" : 1959
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "verifyHomepageLinks",
-        "uid" : "77f4a8a46d3da0",
-        "parentUid" : "11cb2627f49bcff9078b5d24043469fc",
-        "status" : "passed",
-        "time" : {
-          "start" : 1566998922205,
-          "stop" : 1566998922787,
-          "duration" : 582
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "11cb2627f49bcff9078b5d24043469fc"
-    }, {
-      "name" : "9080@DESKTOP-AL9GHFP.main(1)",
-      "children" : [ {
-        "name" : "VerifyclickLoginnowTest",
-        "uid" : "43c1e529798d9972",
-        "parentUid" : "2700b4e48473b1353c4883f0e50be54c",
-        "status" : "passed",
-        "time" : {
-          "start" : 1566984992311,
-          "stop" : 1566984994805,
-          "duration" : 2494
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "VerifyloginTest",
-        "uid" : "db2d0944b63a9c1b",
-        "parentUid" : "2700b4e48473b1353c4883f0e50be54c",
-        "status" : "broken",
-        "time" : {
-          "start" : 1566985004603,
-          "stop" : 1566985028982,
-          "duration" : 24379
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "VerifyloginPageTitleTest",
-        "uid" : "aa1a946a0127f268",
-        "parentUid" : "2700b4e48473b1353c4883f0e50be54c",
-        "status" : "failed",
-        "time" : {
-          "start" : 1566984967856,
-          "stop" : 1566984967918,
-          "duration" : 62
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "VerifycampusLogoTest",
-        "uid" : "d01d67c51aed574c",
-        "parentUid" : "2700b4e48473b1353c4883f0e50be54c",
-        "status" : "passed",
-        "time" : {
-          "start" : 1566984979837,
-          "stop" : 1566984980117,
-          "duration" : 280
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "2700b4e48473b1353c4883f0e50be54c"
-    }, {
-      "name" : "15124@DESKTOP-AL9GHFP.main(1)",
-      "children" : [ {
-        "name" : "verifyTitle",
-        "uid" : "ab39c7507c2aa97c",
-        "parentUid" : "2ffbe175addd9f33fe55ab7655d1f7a1",
-        "status" : "failed",
-        "time" : {
-          "start" : 1567001487474,
-          "stop" : 1567001489465,
-          "duration" : 1991
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "verifyPageFooterLogoTest",
-        "uid" : "71070d1bc23b4083",
-        "parentUid" : "2ffbe175addd9f33fe55ab7655d1f7a1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1567001477190,
-          "stop" : 1567001477290,
-          "duration" : 100
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "verifyPageHeaderBannerLinks",
-        "uid" : "36550debb7879cb4",
-        "parentUid" : "2ffbe175addd9f33fe55ab7655d1f7a1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1567001467330,
-          "stop" : 1567001467535,
-          "duration" : 205
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "verifyHomepageLinks",
-        "uid" : "a90d9f41cced318b",
+        "uid" : "9c60b020416cf96b",
         "parentUid" : "2ffbe175addd9f33fe55ab7655d1f7a1",
         "status" : "passed",
         "time" : {
@@ -222,8 +144,34 @@
         "newFailed" : false,
         "parameters" : [ ]
       }, {
+        "name" : "VerifycampusLogoTest",
+        "uid" : "958fee593f055bbc",
+        "parentUid" : "2ffbe175addd9f33fe55ab7655d1f7a1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1567581329720,
+          "stop" : 1567581331551,
+          "duration" : 1831
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPageHeaderBannerLinks",
+        "uid" : "c0e29eb78b6f77aa",
+        "parentUid" : "2ffbe175addd9f33fe55ab7655d1f7a1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567001467330,
+          "stop" : 1567001467535,
+          "duration" : 205
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
         "name" : "Verifying the unregistered user to place the order",
-        "uid" : "e9f79f89dd9683c9",
+        "uid" : "e07a684be89f6894",
         "parentUid" : "2ffbe175addd9f33fe55ab7655d1f7a1",
         "status" : "broken",
         "time" : {
@@ -236,7 +184,7 @@
         "parameters" : [ "mr", "91-12345678", "040-123456" ]
       }, {
         "name" : "verifyLogoTest",
-        "uid" : "799c256b66802289",
+        "uid" : "e0a0e180a24db716",
         "parentUid" : "2ffbe175addd9f33fe55ab7655d1f7a1",
         "status" : "passed",
         "time" : {
@@ -248,47 +196,34 @@
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "verifyAboutUSLinkTest",
-        "uid" : "60da2b659640a719",
+        "name" : "verifyPageFooterLogoTest",
+        "uid" : "97463a58dbde1312",
         "parentUid" : "2ffbe175addd9f33fe55ab7655d1f7a1",
         "status" : "passed",
         "time" : {
-          "start" : 1567001499409,
-          "stop" : 1567001501368,
-          "duration" : 1959
+          "start" : 1567001477190,
+          "stop" : 1567001477290,
+          "duration" : 100
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "verifyNewsLinkTest",
-        "uid" : "f46547ec542cd2df",
-        "parentUid" : "2ffbe175addd9f33fe55ab7655d1f7a1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1567001510740,
-          "stop" : 1567001512600,
-          "duration" : 1860
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Verifying the registered user to place the order",
-        "uid" : "2abc2421ff114f81",
+        "name" : "VerifyclickLoginnowTest",
+        "uid" : "a1ce9a79450f35c9",
         "parentUid" : "2ffbe175addd9f33fe55ab7655d1f7a1",
         "status" : "broken",
         "time" : {
-          "start" : 1567001281300,
-          "stop" : 1567001456521,
-          "duration" : 175221
+          "start" : 1567581343591,
+          "stop" : 1567581366631,
+          "duration" : 23040
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+        "parameters" : [ ]
       }, {
         "name" : "verifyOrderFormpageLinkTest",
-        "uid" : "92c075995ff1083",
+        "uid" : "6dac3ffb942ccb1c",
         "parentUid" : "2ffbe175addd9f33fe55ab7655d1f7a1",
         "status" : "passed",
         "time" : {
@@ -299,116 +234,168 @@
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "2ffbe175addd9f33fe55ab7655d1f7a1"
-    }, {
-      "name" : "14588@DESKTOP-AL9GHFP.main(1)",
-      "children" : [ {
-        "name" : "Verifying the unregistered user to place the order",
-        "uid" : "91ec2c062a19288",
-        "parentUid" : "bf0a5a42e5e2fd81a46f639ddaf3d621",
-        "status" : "skipped",
+      }, {
+        "name" : "VerifyloginTest",
+        "uid" : "ff86bc78024a11f6",
+        "parentUid" : "2ffbe175addd9f33fe55ab7655d1f7a1",
+        "status" : "broken",
         "time" : {
-          "start" : 1566981939462,
-          "stop" : 1566981939466,
-          "duration" : 4
+          "start" : 1567581379310,
+          "stop" : 1567581402394,
+          "duration" : 23084
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "setUp",
-        "uid" : "3fe79ae20cba873e",
-        "parentUid" : "bf0a5a42e5e2fd81a46f639ddaf3d621",
+        "name" : "verifyTitle",
+        "uid" : "9b9c35df9780eff6",
+        "parentUid" : "2ffbe175addd9f33fe55ab7655d1f7a1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1567001487474,
+          "stop" : 1567001489465,
+          "duration" : 1991
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2ffbe175addd9f33fe55ab7655d1f7a1"
+    }, {
+      "name" : "20072@DESKTOP-AL9GHFP.main(1)",
+      "children" : [ {
+        "name" : "Verifying the registered user to place the order",
+        "uid" : "8e75985436dfe9e7",
+        "parentUid" : "92fa38e1d47dce425bec9119e72ddff8",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1567149591455,
+          "stop" : 1567149591455,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "tearDown",
+        "uid" : "66dfc446b0bfe059",
+        "parentUid" : "92fa38e1d47dce425bec9119e72ddff8",
         "status" : "broken",
         "time" : {
-          "start" : 1566981939343,
-          "stop" : 1566981939347,
-          "duration" : 4
+          "start" : 1567149591345,
+          "stop" : 1567149591345,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verifying the unregistered user to place the order",
+        "uid" : "93de01e3f3cf0b4a",
+        "parentUid" : "92fa38e1d47dce425bec9119e72ddff8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567149591283,
+          "stop" : 1567149591314,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+      } ],
+      "uid" : "92fa38e1d47dce425bec9119e72ddff8"
+    }, {
+      "name" : "8372@DESKTOP-AL9GHFP.main(1)",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "bf153db1e81ce48a",
+        "parentUid" : "22f4b948eb59205868a7eed06f2b3d72",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567148932897,
+          "stop" : 1567148932897,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verifying the unregistered user to place the order",
+        "uid" : "4578980dc2725bae",
+        "parentUid" : "22f4b948eb59205868a7eed06f2b3d72",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1567148932919,
+          "stop" : 1567148932919,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Verifying the registered user to place the order",
-        "uid" : "6121c578a642b0d6",
-        "parentUid" : "bf0a5a42e5e2fd81a46f639ddaf3d621",
+        "uid" : "9739fc8fb31ab210",
+        "parentUid" : "22f4b948eb59205868a7eed06f2b3d72",
         "status" : "skipped",
         "time" : {
-          "start" : 1566981939557,
-          "stop" : 1566981939557,
+          "start" : 1567148933019,
+          "stop" : 1567148933019,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "bf0a5a42e5e2fd81a46f639ddaf3d621"
+      "uid" : "22f4b948eb59205868a7eed06f2b3d72"
     }, {
-      "name" : "7464@DESKTOP-AL9GHFP.main(1)",
+      "name" : "19096@DESKTOP-AL9GHFP.main(1)",
       "children" : [ {
-        "name" : "Verifying the unregistered user to place the order",
-        "uid" : "1720b82703dc6dc7",
-        "parentUid" : "52892a824c6e83942ff289827c00fae0",
+        "name" : "tearDown",
+        "uid" : "3ad250fbac5ab75d",
+        "parentUid" : "74d604088553d06dc5d5fe506d5dbf75",
         "status" : "broken",
         "time" : {
-          "start" : 1566829081300,
-          "stop" : 1566829274578,
-          "duration" : 193278
+          "start" : 1567149328962,
+          "stop" : 1567149328962,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+        "parameters" : [ ]
       }, {
         "name" : "Verifying the registered user to place the order",
-        "uid" : "82dfdb029f922c16",
-        "parentUid" : "52892a824c6e83942ff289827c00fae0",
+        "uid" : "2045aec1746af921",
+        "parentUid" : "74d604088553d06dc5d5fe506d5dbf75",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1567149329062,
+          "stop" : 1567149329062,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verifying the unregistered user to place the order",
+        "uid" : "cce01ea312b2f062",
+        "parentUid" : "74d604088553d06dc5d5fe506d5dbf75",
         "status" : "broken",
         "time" : {
-          "start" : 1566829285812,
-          "stop" : 1566829464001,
-          "duration" : 178189
+          "start" : 1567149328893,
+          "stop" : 1567149328924,
+          "duration" : 31
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "mr", "91-12345678", "040-123456" ]
       } ],
-      "uid" : "52892a824c6e83942ff289827c00fae0"
-    }, {
-      "name" : "11452@DESKTOP-AL9GHFP.main(1)",
-      "children" : [ {
-        "name" : "Verifying the unregistered user to place the order",
-        "uid" : "82146f3eb7a784bc",
-        "parentUid" : "44bce0559c2031c7fc49bef96c2c1462",
-        "status" : "broken",
-        "time" : {
-          "start" : 1566986250973,
-          "stop" : 1566986437142,
-          "duration" : 186169
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "mr", "91-12345678", "040-123456" ]
-      }, {
-        "name" : "Verifying the registered user to place the order",
-        "uid" : "89e515778d610916",
-        "parentUid" : "44bce0559c2031c7fc49bef96c2c1462",
-        "status" : "broken",
-        "time" : {
-          "start" : 1566986452392,
-          "stop" : 1566986631803,
-          "duration" : 179411
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "mr", "91-12345678", "040-123456" ]
-      } ],
-      "uid" : "44bce0559c2031c7fc49bef96c2c1462"
+      "uid" : "74d604088553d06dc5d5fe506d5dbf75"
     }, {
       "name" : "6240@DESKTOP-AL9GHFP.main(1)",
       "children" : [ {
         "name" : "Verifying the unregistered user to place the order",
-        "uid" : "8b2ec096933c2fa",
+        "uid" : "2a1347ebd26b9c97",
         "parentUid" : "767132c4021979753b625802e4ae44b7",
         "status" : "failed",
         "time" : {
@@ -421,7 +408,7 @@
         "parameters" : [ "mr", "91-12345678", "040-123456" ]
       }, {
         "name" : "Verifying the registered user to place the order",
-        "uid" : "ee481f5136806bb1",
+        "uid" : "6f9a3cef75958f1a",
         "parentUid" : "767132c4021979753b625802e4ae44b7",
         "status" : "failed",
         "time" : {
@@ -435,216 +422,342 @@
       } ],
       "uid" : "767132c4021979753b625802e4ae44b7"
     }, {
-      "name" : "11464@DESKTOP-AL9GHFP.main(1)",
+      "name" : "6508@DESKTOP-AL9GHFP.main(1)",
       "children" : [ {
-        "name" : "Verifying the unregistered user to place the order",
-        "uid" : "a44db5e1ebd891d4",
-        "parentUid" : "dbcc1732fb985012b79482d08e003980",
-        "status" : "failed",
+        "name" : "tearDown",
+        "uid" : "a55340c68740ad7b",
+        "parentUid" : "83930e86ab4cb61c23e7e5d7f40026ca",
+        "status" : "broken",
         "time" : {
-          "start" : 1566893771207,
-          "stop" : 1566893810945,
-          "duration" : 39738
+          "start" : 1567149396124,
+          "stop" : 1567149396124,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+        "parameters" : [ ]
       }, {
         "name" : "Verifying the registered user to place the order",
-        "uid" : "478007bc72098ad9",
-        "parentUid" : "dbcc1732fb985012b79482d08e003980",
-        "status" : "failed",
+        "uid" : "342932418427d4f4",
+        "parentUid" : "83930e86ab4cb61c23e7e5d7f40026ca",
+        "status" : "skipped",
         "time" : {
-          "start" : 1566893823476,
-          "stop" : 1566893872105,
-          "duration" : 48629
+          "start" : 1567149396224,
+          "stop" : 1567149396224,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verifying the unregistered user to place the order",
+        "uid" : "c5c78883f2660956",
+        "parentUid" : "83930e86ab4cb61c23e7e5d7f40026ca",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567149396077,
+          "stop" : 1567149396093,
+          "duration" : 16
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "mr", "91-12345678", "040-123456" ]
       } ],
-      "uid" : "dbcc1732fb985012b79482d08e003980"
+      "uid" : "83930e86ab4cb61c23e7e5d7f40026ca"
     }, {
-      "name" : "11220@DESKTOP-AL9GHFP.main(1)",
+      "name" : "11112@DESKTOP-AL9GHFP.main(1)",
       "children" : [ {
-        "name" : "VerifyloginTest",
-        "uid" : "7cb0c4107599be3c",
-        "parentUid" : "77578a528fafef502bbf878fab174ec4",
+        "name" : "verifyOrderFormpageLinkTest",
+        "uid" : "b2e491a867a5b592",
+        "parentUid" : "2b72085c1e9aeb802527f9dfb6aaf6c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567078509222,
+          "stop" : 1567078511247,
+          "duration" : 2025
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyLogoTest",
+        "uid" : "7fc916a67ead9405",
+        "parentUid" : "2b72085c1e9aeb802527f9dfb6aaf6c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567077938347,
+          "stop" : 1567077938566,
+          "duration" : 219
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPageFooterLogoTest",
+        "uid" : "98af33dadc61ed0b",
+        "parentUid" : "2b72085c1e9aeb802527f9dfb6aaf6c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567078441431,
+          "stop" : 1567078441531,
+          "duration" : 100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPageHeaderBannerLinks",
+        "uid" : "64442c3942df6cdd",
+        "parentUid" : "2b72085c1e9aeb802527f9dfb6aaf6c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567078420886,
+          "stop" : 1567078421381,
+          "duration" : 495
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyHomepageLinks",
+        "uid" : "79c4c451e05c25c9",
+        "parentUid" : "2b72085c1e9aeb802527f9dfb6aaf6c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567078156865,
+          "stop" : 1567078157451,
+          "duration" : 586
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyNewsLinkTest",
+        "uid" : "c9f72595d33f814",
+        "parentUid" : "2b72085c1e9aeb802527f9dfb6aaf6c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567078495507,
+          "stop" : 1567078497913,
+          "duration" : 2406
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyTitle",
+        "uid" : "de77eb525897f976",
+        "parentUid" : "2b72085c1e9aeb802527f9dfb6aaf6c1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1567078461636,
+          "stop" : 1567078464797,
+          "duration" : 3161
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyAboutUSLinkTest",
+        "uid" : "ab4d22b2fa590b57",
+        "parentUid" : "2b72085c1e9aeb802527f9dfb6aaf6c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567078479668,
+          "stop" : 1567078483510,
+          "duration" : 3842
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verifying the registered user to place the order",
+        "uid" : "af59f0839d3cadb4",
+        "parentUid" : "2b72085c1e9aeb802527f9dfb6aaf6c1",
         "status" : "broken",
         "time" : {
-          "start" : 1566984582279,
-          "stop" : 1566984607660,
-          "duration" : 25381
+          "start" : 1567078169593,
+          "stop" : 1567078400435,
+          "duration" : 230842
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+      }, {
+        "name" : "Verifying the unregistered user to place the order",
+        "uid" : "749ef19f10c7055e",
+        "parentUid" : "2b72085c1e9aeb802527f9dfb6aaf6c1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567077957366,
+          "stop" : 1567078140478,
+          "duration" : 183112
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+      } ],
+      "uid" : "2b72085c1e9aeb802527f9dfb6aaf6c1"
+    }, {
+      "name" : "9708@DESKTOP-AL9GHFP.main(1)",
+      "children" : [ {
+        "name" : "Verifying the unregistered user to place the order",
+        "uid" : "5f81845bfd221cd",
+        "parentUid" : "ee528209aa1d24516ca15ff64d2601ae",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1567148856879,
+          "stop" : 1567148856883,
+          "duration" : 4
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
+        "name" : "setUp",
+        "uid" : "43c6541e1a3cd145",
+        "parentUid" : "ee528209aa1d24516ca15ff64d2601ae",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567148856844,
+          "stop" : 1567148856848,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verifying the registered user to place the order",
+        "uid" : "23f87786f2975733",
+        "parentUid" : "ee528209aa1d24516ca15ff64d2601ae",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1567148856995,
+          "stop" : 1567148856995,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ee528209aa1d24516ca15ff64d2601ae"
+    }, {
+      "name" : "6288@DESKTOP-AL9GHFP.main(1)",
+      "children" : [ {
         "name" : "VerifycampusLogoTest",
-        "uid" : "733d2260ad85e08e",
-        "parentUid" : "77578a528fafef502bbf878fab174ec4",
-        "status" : "passed",
+        "uid" : "d23f9bc2bdf89536",
+        "parentUid" : "f9335937b1ea3bb36a78c9ed2b5c4e69",
+        "status" : "failed",
         "time" : {
-          "start" : 1566984557170,
-          "stop" : 1566984557345,
-          "duration" : 175
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "VerifyclickLoginnowTest",
-        "uid" : "a2fddf127e380616",
-        "parentUid" : "77578a528fafef502bbf878fab174ec4",
-        "status" : "passed",
-        "time" : {
-          "start" : 1566984568534,
-          "stop" : 1566984570600,
-          "duration" : 2066
+          "start" : 1567523172474,
+          "stop" : 1567523175491,
+          "duration" : 3017
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "VerifyloginPageTitleTest",
-        "uid" : "faa7ea78bd6d2bc9",
-        "parentUid" : "77578a528fafef502bbf878fab174ec4",
+        "uid" : "fa083de82da890b0",
+        "parentUid" : "f9335937b1ea3bb36a78c9ed2b5c4e69",
         "status" : "failed",
         "time" : {
-          "start" : 1566984545300,
-          "stop" : 1566984545333,
-          "duration" : 33
+          "start" : 1567523158195,
+          "stop" : 1567523162199,
+          "duration" : 4004
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyloginTest",
+        "uid" : "237aa098207a60df",
+        "parentUid" : "f9335937b1ea3bb36a78c9ed2b5c4e69",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567523222579,
+          "stop" : 1567523246700,
+          "duration" : 24121
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyclickLoginnowTest",
+        "uid" : "e61bcba1605db142",
+        "parentUid" : "f9335937b1ea3bb36a78c9ed2b5c4e69",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567523188238,
+          "stop" : 1567523212514,
+          "duration" : 24276
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "77578a528fafef502bbf878fab174ec4"
+      "uid" : "f9335937b1ea3bb36a78c9ed2b5c4e69"
     }, {
-      "name" : "16756@DESKTOP-AL9GHFP.main(1)",
+      "name" : "8588@DESKTOP-AL9GHFP.main(1)",
       "children" : [ {
-        "name" : "Verifying the registered user to place the order",
-        "uid" : "b35a6123326e2ed",
-        "parentUid" : "aa86a7951ec1cfed68b6031af627a2f1",
-        "status" : "broken",
+        "name" : "VerifycampusLogoTest",
+        "uid" : "5da6f432c2626bbd",
+        "parentUid" : "359afe771cbd1f78a960356570d18842",
+        "status" : "failed",
         "time" : {
-          "start" : 1566894437280,
-          "stop" : 1566894612015,
-          "duration" : 174735
+          "start" : 1567580857028,
+          "stop" : 1567580858785,
+          "duration" : 1757
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+        "parameters" : [ ]
       }, {
-        "name" : "Verifying the unregistered user to place the order",
-        "uid" : "60091293581377c0",
-        "parentUid" : "aa86a7951ec1cfed68b6031af627a2f1",
-        "status" : "broken",
+        "name" : "VerifyloginPageTitleTest",
+        "uid" : "59aff89fb507bbbf",
+        "parentUid" : "359afe771cbd1f78a960356570d18842",
+        "status" : "failed",
         "time" : {
-          "start" : 1566894243487,
-          "stop" : 1566894424398,
-          "duration" : 180911
+          "start" : 1567580842734,
+          "stop" : 1567580844419,
+          "duration" : 1685
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "mr", "91-12345678", "040-123456" ]
-      } ],
-      "uid" : "aa86a7951ec1cfed68b6031af627a2f1"
-    }, {
-      "name" : "8500@DESKTOP-AL9GHFP.main(1)",
-      "children" : [ {
-        "name" : "Verifying the unregistered user to place the order",
-        "uid" : "5bb126fc0fbb17a2",
-        "parentUid" : "139303dd59c88035ee384528aa3b5219",
-        "status" : "broken",
-        "time" : {
-          "start" : 1566983261713,
-          "stop" : 1566983443250,
-          "duration" : 181537
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+        "parameters" : [ ]
       }, {
-        "name" : "Verifying the registered user to place the order",
-        "uid" : "f44b059b8b5f8042",
-        "parentUid" : "139303dd59c88035ee384528aa3b5219",
+        "name" : "VerifyloginTest",
+        "uid" : "4b5e97826cdf6d2e",
+        "parentUid" : "359afe771cbd1f78a960356570d18842",
         "status" : "broken",
         "time" : {
-          "start" : 1566983454521,
-          "stop" : 1566983629397,
-          "duration" : 174876
+          "start" : 1567580910119,
+          "stop" : 1567580933071,
+          "duration" : 22952
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "mr", "91-12345678", "040-123456" ]
-      } ],
-      "uid" : "139303dd59c88035ee384528aa3b5219"
-    }, {
-      "name" : "1568@DESKTOP-AL9GHFP.main(1)",
-      "children" : [ {
-        "name" : "Verifying the unregistered user to place the order",
-        "uid" : "ec8bae80c3d58bdf",
-        "parentUid" : "aea19b13dc03a9bb5d4adb3d8673e65a",
-        "status" : "broken",
-        "time" : {
-          "start" : 1566908453147,
-          "stop" : 1566908640249,
-          "duration" : 187102
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+        "parameters" : [ ]
       }, {
-        "name" : "Verifying the registered user to place the order",
-        "uid" : "ed10eac9a8d46737",
-        "parentUid" : "aea19b13dc03a9bb5d4adb3d8673e65a",
+        "name" : "VerifyclickLoginnowTest",
+        "uid" : "77a5df3103181461",
+        "parentUid" : "359afe771cbd1f78a960356570d18842",
         "status" : "broken",
         "time" : {
-          "start" : 1566908653336,
-          "stop" : 1566908833103,
-          "duration" : 179767
+          "start" : 1567580872714,
+          "stop" : 1567580896321,
+          "duration" : 23607
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+        "parameters" : [ ]
       } ],
-      "uid" : "aea19b13dc03a9bb5d4adb3d8673e65a"
-    }, {
-      "name" : "11140@DESKTOP-AL9GHFP.main(1)",
-      "children" : [ {
-        "name" : "Verifying the unregistered user to place the order",
-        "uid" : "91ea02a11d50819a",
-        "parentUid" : "cae68d7f8432129096c9af5f15e080f2",
-        "status" : "broken",
-        "time" : {
-          "start" : 1566913580296,
-          "stop" : 1566913763848,
-          "duration" : 183552
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "mr", "91-12345678", "040-123456" ]
-      }, {
-        "name" : "Verifying the registered user to place the order",
-        "uid" : "20d31f41067825e0",
-        "parentUid" : "cae68d7f8432129096c9af5f15e080f2",
-        "status" : "broken",
-        "time" : {
-          "start" : 1566913776583,
-          "stop" : 1566913951704,
-          "duration" : 175121
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "mr", "91-12345678", "040-123456" ]
-      } ],
-      "uid" : "cae68d7f8432129096c9af5f15e080f2"
+      "uid" : "359afe771cbd1f78a960356570d18842"
     }, {
       "name" : "16584@DESKTOP-AL9GHFP.main(1)",
       "children" : [ {
         "name" : "Verifying the registered user to place the order",
-        "uid" : "13162982b258192c",
+        "uid" : "27503b6b725c7cd0",
         "parentUid" : "b13fa13d353f76909d045e126d28ea40",
         "status" : "broken",
         "time" : {
@@ -657,7 +770,7 @@
         "parameters" : [ "mr", "91-12345678", "040-123456" ]
       }, {
         "name" : "Verifying the unregistered user to place the order",
-        "uid" : "496c3680095475f4",
+        "uid" : "4ab1d05a6a6f4f6e",
         "parentUid" : "b13fa13d353f76909d045e126d28ea40",
         "status" : "broken",
         "time" : {
@@ -671,23 +784,492 @@
       } ],
       "uid" : "b13fa13d353f76909d045e126d28ea40"
     }, {
-      "name" : "11820@DESKTOP-AL9GHFP.main(1)",
+      "name" : "11140@DESKTOP-AL9GHFP.main(1)",
       "children" : [ {
         "name" : "Verifying the registered user to place the order",
-        "uid" : "6c7b06a6230dc773",
-        "parentUid" : "0b831277d12202138f14a4945701397c",
+        "uid" : "c5fb48be7b63d2ec",
+        "parentUid" : "cae68d7f8432129096c9af5f15e080f2",
         "status" : "broken",
         "time" : {
-          "start" : 1566972147653,
-          "stop" : 1566972327656,
-          "duration" : 180003
+          "start" : 1566913776583,
+          "stop" : 1566913951704,
+          "duration" : 175121
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "mr", "91-12345678", "040-123456" ]
       }, {
         "name" : "Verifying the unregistered user to place the order",
-        "uid" : "aff8f3ef55ee98cb",
+        "uid" : "8b5c0df8589a8b9b",
+        "parentUid" : "cae68d7f8432129096c9af5f15e080f2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1566913580296,
+          "stop" : 1566913763848,
+          "duration" : 183552
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+      } ],
+      "uid" : "cae68d7f8432129096c9af5f15e080f2"
+    }, {
+      "name" : "15284@DESKTOP-AL9GHFP.main(1)",
+      "children" : [ {
+        "name" : "Verifying the unregistered user to place the order",
+        "uid" : "7ef58dcde609b065",
+        "parentUid" : "d91395c50d778713f26fc557e06fbb78",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567149156877,
+          "stop" : 1567149156901,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+      }, {
+        "name" : "Verifying the registered user to place the order",
+        "uid" : "6ffbc5cac077ca0f",
+        "parentUid" : "d91395c50d778713f26fc557e06fbb78",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1567149157021,
+          "stop" : 1567149157021,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "tearDown",
+        "uid" : "2634acdd513d5762",
+        "parentUid" : "d91395c50d778713f26fc557e06fbb78",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567149156925,
+          "stop" : 1567149156925,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d91395c50d778713f26fc557e06fbb78"
+    }, {
+      "name" : "17576@DESKTOP-AL9GHFP.main(1)",
+      "children" : [ {
+        "name" : "tearDown",
+        "uid" : "cdc354bbe4e2fc50",
+        "parentUid" : "42ee8ffd8a2a3568a0c35f1828ab6f62",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567149361899,
+          "stop" : 1567149361899,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verifying the registered user to place the order",
+        "uid" : "5976f6c87fdad743",
+        "parentUid" : "42ee8ffd8a2a3568a0c35f1828ab6f62",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1567149362019,
+          "stop" : 1567149362019,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verifying the unregistered user to place the order",
+        "uid" : "f9df59f9eb25342e",
+        "parentUid" : "42ee8ffd8a2a3568a0c35f1828ab6f62",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567149361843,
+          "stop" : 1567149361871,
+          "duration" : 28
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+      } ],
+      "uid" : "42ee8ffd8a2a3568a0c35f1828ab6f62"
+    }, {
+      "name" : "7732@DESKTOP-AL9GHFP.main(1)",
+      "children" : [ {
+        "name" : "Verifying the registered user to place the order",
+        "uid" : "6b66c9e06da0d8e9",
+        "parentUid" : "0ce743b2eb9b426caed8b90d2403df6c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1567148420884,
+          "stop" : 1567148420884,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verifying the unregistered user to place the order",
+        "uid" : "fac486b969760f3d",
+        "parentUid" : "0ce743b2eb9b426caed8b90d2403df6c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1567148420783,
+          "stop" : 1567148420783,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "setUp",
+        "uid" : "4e1032a09124d843",
+        "parentUid" : "0ce743b2eb9b426caed8b90d2403df6c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567148420746,
+          "stop" : 1567148420761,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0ce743b2eb9b426caed8b90d2403df6c"
+    }, {
+      "name" : "9080@DESKTOP-AL9GHFP.main(1)",
+      "children" : [ {
+        "name" : "VerifyloginTest",
+        "uid" : "53d71bd82b733658",
+        "parentUid" : "2700b4e48473b1353c4883f0e50be54c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1566985004603,
+          "stop" : 1566985028982,
+          "duration" : 24379
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyclickLoginnowTest",
+        "uid" : "3dfb359eca5d8e21",
+        "parentUid" : "2700b4e48473b1353c4883f0e50be54c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1566984992311,
+          "stop" : 1566984994805,
+          "duration" : 2494
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyloginPageTitleTest",
+        "uid" : "14592380e8dfaad8",
+        "parentUid" : "2700b4e48473b1353c4883f0e50be54c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1566984967856,
+          "stop" : 1566984967918,
+          "duration" : 62
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifycampusLogoTest",
+        "uid" : "1adb76b65dfa8f0d",
+        "parentUid" : "2700b4e48473b1353c4883f0e50be54c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1566984979837,
+          "stop" : 1566984980117,
+          "duration" : 280
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2700b4e48473b1353c4883f0e50be54c"
+    }, {
+      "name" : "11860@DESKTOP-AL9GHFP.main(1)",
+      "children" : [ {
+        "name" : "Verifying the registered user to place the order",
+        "uid" : "7590159b2f4574a3",
+        "parentUid" : "4805d23e246d3fd7dd4f0defc236f257",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1567148338911,
+          "stop" : 1567148338911,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verifying the unregistered user to place the order",
+        "uid" : "a3b0770530ef0cf2",
+        "parentUid" : "4805d23e246d3fd7dd4f0defc236f257",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1567148338827,
+          "stop" : 1567148338831,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "setUp",
+        "uid" : "3aad6452c81a21c9",
+        "parentUid" : "4805d23e246d3fd7dd4f0defc236f257",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567148338789,
+          "stop" : 1567148338793,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4805d23e246d3fd7dd4f0defc236f257"
+    }, {
+      "name" : "11220@DESKTOP-AL9GHFP.main(1)",
+      "children" : [ {
+        "name" : "VerifyloginTest",
+        "uid" : "ebe8c650cdd9cd04",
+        "parentUid" : "77578a528fafef502bbf878fab174ec4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1566984582279,
+          "stop" : 1566984607660,
+          "duration" : 25381
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyclickLoginnowTest",
+        "uid" : "7f47e53e76c89e56",
+        "parentUid" : "77578a528fafef502bbf878fab174ec4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1566984568534,
+          "stop" : 1566984570600,
+          "duration" : 2066
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifycampusLogoTest",
+        "uid" : "93e84ed8c3c222a4",
+        "parentUid" : "77578a528fafef502bbf878fab174ec4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1566984557170,
+          "stop" : 1566984557345,
+          "duration" : 175
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyloginPageTitleTest",
+        "uid" : "e02aae4c38b7428d",
+        "parentUid" : "77578a528fafef502bbf878fab174ec4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1566984545300,
+          "stop" : 1566984545333,
+          "duration" : 33
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "77578a528fafef502bbf878fab174ec4"
+    }, {
+      "name" : "20092@DESKTOP-AL9GHFP.main(1)",
+      "children" : [ {
+        "name" : "Verifying the registered user to place the order",
+        "uid" : "44dd61355f2d6e2d",
+        "parentUid" : "47400bdd89ba0a5317c6ceb3ea98f4db",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567087410960,
+          "stop" : 1567087586959,
+          "duration" : 175999
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+      }, {
+        "name" : "Verifying the unregistered user to place the order",
+        "uid" : "aecbfb0ede975cce",
+        "parentUid" : "47400bdd89ba0a5317c6ceb3ea98f4db",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567087213379,
+          "stop" : 1567087394813,
+          "duration" : 181434
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+      } ],
+      "uid" : "47400bdd89ba0a5317c6ceb3ea98f4db"
+    }, {
+      "name" : "11452@DESKTOP-AL9GHFP.main(1)",
+      "children" : [ {
+        "name" : "Verifying the registered user to place the order",
+        "uid" : "fc42bcca546275f6",
+        "parentUid" : "44bce0559c2031c7fc49bef96c2c1462",
+        "status" : "broken",
+        "time" : {
+          "start" : 1566986452392,
+          "stop" : 1566986631803,
+          "duration" : 179411
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+      }, {
+        "name" : "Verifying the unregistered user to place the order",
+        "uid" : "3c14b668cf0af01",
+        "parentUid" : "44bce0559c2031c7fc49bef96c2c1462",
+        "status" : "broken",
+        "time" : {
+          "start" : 1566986250973,
+          "stop" : 1566986437142,
+          "duration" : 186169
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+      } ],
+      "uid" : "44bce0559c2031c7fc49bef96c2c1462"
+    }, {
+      "name" : "8804@DESKTOP-AL9GHFP.main(1)",
+      "children" : [ {
+        "name" : "verifyLogoTest",
+        "uid" : "3feb1fddff8e3420",
+        "parentUid" : "11cb2627f49bcff9078b5d24043469fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1566998911088,
+          "stop" : 1566998911311,
+          "duration" : 223
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyOrderFormpageLinkTest",
+        "uid" : "a6cb8f1352b57e8c",
+        "parentUid" : "11cb2627f49bcff9078b5d24043469fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1566998994694,
+          "stop" : 1566998997144,
+          "duration" : 2450
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPageHeaderBannerLinks",
+        "uid" : "506cf434993f6a6c",
+        "parentUid" : "11cb2627f49bcff9078b5d24043469fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1566998933295,
+          "stop" : 1566998933547,
+          "duration" : 252
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPageFooterLogoTest",
+        "uid" : "ff96a1919fb4a0ee",
+        "parentUid" : "11cb2627f49bcff9078b5d24043469fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1566998945416,
+          "stop" : 1566998945638,
+          "duration" : 222
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyNewsLinkTest",
+        "uid" : "27fe394127b28a82",
+        "parentUid" : "11cb2627f49bcff9078b5d24043469fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1566998980847,
+          "stop" : 1566998982760,
+          "duration" : 1913
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyTitle",
+        "uid" : "89e5fe5accdfa059",
+        "parentUid" : "11cb2627f49bcff9078b5d24043469fc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1566998955864,
+          "stop" : 1566998957299,
+          "duration" : 1435
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyAboutUSLinkTest",
+        "uid" : "f3b6c5287f01b53e",
+        "parentUid" : "11cb2627f49bcff9078b5d24043469fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1566998968662,
+          "stop" : 1566998970934,
+          "duration" : 2272
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyHomepageLinks",
+        "uid" : "8721cf6680cd6c49",
+        "parentUid" : "11cb2627f49bcff9078b5d24043469fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1566998922205,
+          "stop" : 1566998922787,
+          "duration" : 582
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "11cb2627f49bcff9078b5d24043469fc"
+    }, {
+      "name" : "11820@DESKTOP-AL9GHFP.main(1)",
+      "children" : [ {
+        "name" : "Verifying the unregistered user to place the order",
+        "uid" : "daca29adc10c15dd",
         "parentUid" : "0b831277d12202138f14a4945701397c",
         "status" : "broken",
         "time" : {
@@ -698,30 +1280,26 @@
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "mr", "91-12345678", "040-123456" ]
-      } ],
-      "uid" : "0b831277d12202138f14a4945701397c"
-    }, {
-      "name" : "17076@DESKTOP-AL9GHFP.main(1)",
-      "children" : [ {
-        "name" : "verifyLogoTest",
-        "uid" : "6b637135d02c3535",
-        "parentUid" : "a10759eaf61f16df85178991ba29c939",
-        "status" : "passed",
+      }, {
+        "name" : "Verifying the registered user to place the order",
+        "uid" : "3a78c88d07ab1ff9",
+        "parentUid" : "0b831277d12202138f14a4945701397c",
+        "status" : "broken",
         "time" : {
-          "start" : 1566998830745,
-          "stop" : 1566998830939,
-          "duration" : 194
+          "start" : 1566972147653,
+          "stop" : 1566972327656,
+          "duration" : 180003
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ ]
+        "parameters" : [ "mr", "91-12345678", "040-123456" ]
       } ],
-      "uid" : "a10759eaf61f16df85178991ba29c939"
+      "uid" : "0b831277d12202138f14a4945701397c"
     }, {
       "name" : "12060@DESKTOP-AL9GHFP.main(1)",
       "children" : [ {
         "name" : "Verifying the registered user to place the order",
-        "uid" : "3e42fc0ed0395733",
+        "uid" : "cc561443d2c3d214",
         "parentUid" : "a318edd4bff12227ca914c8e7fdb26ea",
         "status" : "broken",
         "time" : {
@@ -734,7 +1312,7 @@
         "parameters" : [ "mr", "91-12345678", "040-123456" ]
       }, {
         "name" : "Verifying the unregistered user to place the order",
-        "uid" : "d2483acff80a1f94",
+        "uid" : "d499025f2d3d1b1d",
         "parentUid" : "a318edd4bff12227ca914c8e7fdb26ea",
         "status" : "broken",
         "time" : {
@@ -748,40 +1326,233 @@
       } ],
       "uid" : "a318edd4bff12227ca914c8e7fdb26ea"
     }, {
-      "name" : "8136@DESKTOP-AL9GHFP.main(1)",
+      "name" : "13160@DESKTOP-AL9GHFP.main(1)",
       "children" : [ {
         "name" : "Verifying the registered user to place the order",
-        "uid" : "fc1db27bbe960bba",
-        "parentUid" : "179f7975d4f610be196da4f5fd6097fc",
-        "status" : "failed",
+        "uid" : "d2332f059af315e6",
+        "parentUid" : "eae25a1a2283296312192087ce0cd38b",
+        "status" : "broken",
         "time" : {
-          "start" : 1566890314627,
-          "stop" : 1566890367393,
-          "duration" : 52766
+          "start" : 1567581879641,
+          "stop" : 1567582040658,
+          "duration" : 161017
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "mr", "91-12345678", "040-123456" ]
       }, {
         "name" : "Verifying the unregistered user to place the order",
-        "uid" : "7bf9a80e4e390772",
-        "parentUid" : "179f7975d4f610be196da4f5fd6097fc",
-        "status" : "failed",
+        "uid" : "7d6a6423f60c36fa",
+        "parentUid" : "eae25a1a2283296312192087ce0cd38b",
+        "status" : "broken",
         "time" : {
-          "start" : 1566890262537,
-          "stop" : 1566890301889,
-          "duration" : 39352
+          "start" : 1567581700436,
+          "stop" : 1567581866773,
+          "duration" : 166337
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "mr", "91-12345678", "040-123456" ]
       } ],
-      "uid" : "179f7975d4f610be196da4f5fd6097fc"
+      "uid" : "eae25a1a2283296312192087ce0cd38b"
+    }, {
+      "name" : "17076@DESKTOP-AL9GHFP.main(1)",
+      "children" : [ {
+        "name" : "verifyLogoTest",
+        "uid" : "eb50982cdb2e51ad",
+        "parentUid" : "a10759eaf61f16df85178991ba29c939",
+        "status" : "passed",
+        "time" : {
+          "start" : 1566998830745,
+          "stop" : 1566998830939,
+          "duration" : 194
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a10759eaf61f16df85178991ba29c939"
+    }, {
+      "name" : "8500@DESKTOP-AL9GHFP.main(1)",
+      "children" : [ {
+        "name" : "Verifying the registered user to place the order",
+        "uid" : "d4679780ea7f6ec6",
+        "parentUid" : "139303dd59c88035ee384528aa3b5219",
+        "status" : "broken",
+        "time" : {
+          "start" : 1566983454521,
+          "stop" : 1566983629397,
+          "duration" : 174876
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+      }, {
+        "name" : "Verifying the unregistered user to place the order",
+        "uid" : "b780180926cdba70",
+        "parentUid" : "139303dd59c88035ee384528aa3b5219",
+        "status" : "broken",
+        "time" : {
+          "start" : 1566983261713,
+          "stop" : 1566983443250,
+          "duration" : 181537
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+      } ],
+      "uid" : "139303dd59c88035ee384528aa3b5219"
+    }, {
+      "name" : "9356@DESKTOP-AL9GHFP.main(1)",
+      "children" : [ {
+        "name" : "Verifying the registered user to place the order",
+        "uid" : "1e759f1733fd78c",
+        "parentUid" : "25cefed733d8fc44625a30102e1ad344",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567149810549,
+          "stop" : 1567149967927,
+          "duration" : 157378
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+      }, {
+        "name" : "Verifying the unregistered user to place the order",
+        "uid" : "84d8fc7288c4304d",
+        "parentUid" : "25cefed733d8fc44625a30102e1ad344",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567149637230,
+          "stop" : 1567149799239,
+          "duration" : 162009
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+      } ],
+      "uid" : "25cefed733d8fc44625a30102e1ad344"
+    }, {
+      "name" : "14588@DESKTOP-AL9GHFP.main(1)",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "463c8759999024ef",
+        "parentUid" : "bf0a5a42e5e2fd81a46f639ddaf3d621",
+        "status" : "broken",
+        "time" : {
+          "start" : 1566981939343,
+          "stop" : 1566981939347,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verifying the unregistered user to place the order",
+        "uid" : "dc6980f8a4357de4",
+        "parentUid" : "bf0a5a42e5e2fd81a46f639ddaf3d621",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1566981939462,
+          "stop" : 1566981939466,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verifying the registered user to place the order",
+        "uid" : "c7ed813b03eefb7",
+        "parentUid" : "bf0a5a42e5e2fd81a46f639ddaf3d621",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1566981939557,
+          "stop" : 1566981939557,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bf0a5a42e5e2fd81a46f639ddaf3d621"
+    }, {
+      "name" : "16756@DESKTOP-AL9GHFP.main(1)",
+      "children" : [ {
+        "name" : "Verifying the registered user to place the order",
+        "uid" : "ecb0e8f7a4f38e2c",
+        "parentUid" : "aa86a7951ec1cfed68b6031af627a2f1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1566894437280,
+          "stop" : 1566894612015,
+          "duration" : 174735
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+      }, {
+        "name" : "Verifying the unregistered user to place the order",
+        "uid" : "67ce00a696adcaf0",
+        "parentUid" : "aa86a7951ec1cfed68b6031af627a2f1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1566894243487,
+          "stop" : 1566894424398,
+          "duration" : 180911
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+      } ],
+      "uid" : "aa86a7951ec1cfed68b6031af627a2f1"
+    }, {
+      "name" : "16456@DESKTOP-AL9GHFP.main(1)",
+      "children" : [ {
+        "name" : "tearDown",
+        "uid" : "46cc2383ec2f84e2",
+        "parentUid" : "44b3df6b1a70ce6175d547863b3d0938",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567149026370,
+          "stop" : 1567149026370,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verifying the unregistered user to place the order",
+        "uid" : "5004bc0e568cd9a5",
+        "parentUid" : "44b3df6b1a70ce6175d547863b3d0938",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567149026324,
+          "stop" : 1567149026339,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+      }, {
+        "name" : "Verifying the registered user to place the order",
+        "uid" : "ebb68145705369fa",
+        "parentUid" : "44b3df6b1a70ce6175d547863b3d0938",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1567149026526,
+          "stop" : 1567149026526,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "44b3df6b1a70ce6175d547863b3d0938"
     }, {
       "name" : "15384@DESKTOP-AL9GHFP.main(1)",
       "children" : [ {
         "name" : "Verifying the unregistered user to place the order",
-        "uid" : "463a8ee570f1f43",
+        "uid" : "2a508d5cf556b033",
         "parentUid" : "d9d5080fe33180179dde6bd2ad7bcafd",
         "status" : "broken",
         "time" : {
@@ -794,6 +1565,272 @@
         "parameters" : [ "mr", "91-12345678", "040-123456" ]
       } ],
       "uid" : "d9d5080fe33180179dde6bd2ad7bcafd"
+    }, {
+      "name" : "20368@DESKTOP-AL9GHFP.main(1)",
+      "children" : [ {
+        "name" : "Verifying the registered user to place the order",
+        "uid" : "292f80fed5ca4e79",
+        "parentUid" : "84325bf2e08e3afd7d93de72afa592f3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567084161316,
+          "stop" : 1567084199498,
+          "duration" : 38182
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+      } ],
+      "uid" : "84325bf2e08e3afd7d93de72afa592f3"
+    }, {
+      "name" : "6324@DESKTOP-AL9GHFP.main(1)",
+      "children" : [ {
+        "name" : "Verifying the unregistered user to place the order",
+        "uid" : "e290e4a7d0479e73",
+        "parentUid" : "95d112063b68f697c62a57e61823846c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567149202148,
+          "stop" : 1567149202179,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+      }, {
+        "name" : "tearDown",
+        "uid" : "fbbd993fb09ee559",
+        "parentUid" : "95d112063b68f697c62a57e61823846c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567149202194,
+          "stop" : 1567149202194,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verifying the registered user to place the order",
+        "uid" : "e5a7d088c653c28a",
+        "parentUid" : "95d112063b68f697c62a57e61823846c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1567149202310,
+          "stop" : 1567149202310,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "95d112063b68f697c62a57e61823846c"
+    }, {
+      "name" : "1568@DESKTOP-AL9GHFP.main(1)",
+      "children" : [ {
+        "name" : "Verifying the registered user to place the order",
+        "uid" : "f226fd9a7cad2c5b",
+        "parentUid" : "aea19b13dc03a9bb5d4adb3d8673e65a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1566908653336,
+          "stop" : 1566908833103,
+          "duration" : 179767
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+      }, {
+        "name" : "Verifying the unregistered user to place the order",
+        "uid" : "f9c122910777e8d0",
+        "parentUid" : "aea19b13dc03a9bb5d4adb3d8673e65a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1566908453147,
+          "stop" : 1566908640249,
+          "duration" : 187102
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+      } ],
+      "uid" : "aea19b13dc03a9bb5d4adb3d8673e65a"
+    }, {
+      "name" : "7464@DESKTOP-AL9GHFP.main(1)",
+      "children" : [ {
+        "name" : "Verifying the unregistered user to place the order",
+        "uid" : "fd1acbf038371841",
+        "parentUid" : "52892a824c6e83942ff289827c00fae0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1566829081300,
+          "stop" : 1566829274578,
+          "duration" : 193278
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+      }, {
+        "name" : "Verifying the registered user to place the order",
+        "uid" : "473ab2895566082b",
+        "parentUid" : "52892a824c6e83942ff289827c00fae0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1566829285812,
+          "stop" : 1566829464001,
+          "duration" : 178189
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+      } ],
+      "uid" : "52892a824c6e83942ff289827c00fae0"
+    }, {
+      "name" : "12028@DESKTOP-AL9GHFP.main(1)",
+      "children" : [ {
+        "name" : "Verifying the unregistered user to place the order",
+        "uid" : "787c26112da3fb63",
+        "parentUid" : "118aca461b7057287671f774db84515b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1567148693341,
+          "stop" : 1567148693341,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verifying the registered user to place the order",
+        "uid" : "528682374aeef5ba",
+        "parentUid" : "118aca461b7057287671f774db84515b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1567148693435,
+          "stop" : 1567148693435,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "setUp",
+        "uid" : "24579fe93c8c194f",
+        "parentUid" : "118aca461b7057287671f774db84515b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567148693320,
+          "stop" : 1567148693320,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "118aca461b7057287671f774db84515b"
+    }, {
+      "name" : "10776@DESKTOP-AL9GHFP.main(1)",
+      "children" : [ {
+        "name" : "Verifying the registered user to place the order",
+        "uid" : "906abde676fe445e",
+        "parentUid" : "326feb7f6d982160fb46ba89315eab0b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1567148617570,
+          "stop" : 1567148617570,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "setUp",
+        "uid" : "a452c0a58a7eca21",
+        "parentUid" : "326feb7f6d982160fb46ba89315eab0b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1567148617454,
+          "stop" : 1567148617454,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verifying the unregistered user to place the order",
+        "uid" : "7da2d57a4e187ec5",
+        "parentUid" : "326feb7f6d982160fb46ba89315eab0b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1567148617472,
+          "stop" : 1567148617472,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "326feb7f6d982160fb46ba89315eab0b"
+    }, {
+      "name" : "11464@DESKTOP-AL9GHFP.main(1)",
+      "children" : [ {
+        "name" : "Verifying the unregistered user to place the order",
+        "uid" : "7e69d654e888ee2d",
+        "parentUid" : "dbcc1732fb985012b79482d08e003980",
+        "status" : "failed",
+        "time" : {
+          "start" : 1566893771207,
+          "stop" : 1566893810945,
+          "duration" : 39738
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+      }, {
+        "name" : "Verifying the registered user to place the order",
+        "uid" : "dca61b918203ef7a",
+        "parentUid" : "dbcc1732fb985012b79482d08e003980",
+        "status" : "failed",
+        "time" : {
+          "start" : 1566893823476,
+          "stop" : 1566893872105,
+          "duration" : 48629
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+      } ],
+      "uid" : "dbcc1732fb985012b79482d08e003980"
+    }, {
+      "name" : "8136@DESKTOP-AL9GHFP.main(1)",
+      "children" : [ {
+        "name" : "Verifying the unregistered user to place the order",
+        "uid" : "ed8340b2da6f24b8",
+        "parentUid" : "179f7975d4f610be196da4f5fd6097fc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1566890262537,
+          "stop" : 1566890301889,
+          "duration" : 39352
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+      }, {
+        "name" : "Verifying the registered user to place the order",
+        "uid" : "2bd346eb011c880b",
+        "parentUid" : "179f7975d4f610be196da4f5fd6097fc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1566890314627,
+          "stop" : 1566890367393,
+          "duration" : 52766
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mr", "91-12345678", "040-123456" ]
+      } ],
+      "uid" : "179f7975d4f610be196da4f5fd6097fc"
     } ],
     "uid" : "c3ddddd35abda09968b71425dbc5a028"
   } ]

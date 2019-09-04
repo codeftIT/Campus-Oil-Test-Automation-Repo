@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Campus Oil Test Automation Suite" duration-ms="457607" started-at="2019-09-04T07:31:41Z" finished-at="2019-09-04T07:39:19Z">
+    <groups>
+    </groups>
+    <test name="Automated Test Run" duration-ms="457607" started-at="2019-09-04T07:31:41Z" finished-at="2019-09-04T07:39:19Z">
+      <class name="com.campus.qa.testcases.PlaceOrderAsRegisteredUserTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.campus.qa.testcases.PlaceOrderAsRegisteredUserTest@754777cd]" name="setUp" is-config="true" duration-ms="13624" started-at="2019-09-04T13:01:43Z" finished-at="2019-09-04T13:01:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ToPlaceOrderAsUnRegisteredUserTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.campus.qa.testcases.PlaceOrderAsRegisteredUserTest@754777cd]" name="ToPlaceOrderAsUnRegisteredUserTest" duration-ms="216478" started-at="2019-09-04T13:01:57Z" description="Verifying the unregistered user to place the order" data-provider="getYourDetailsData" finished-at="2019-09-04T13:05:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[91-12345678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[040-123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ToPlaceOrderAsUnRegisteredUserTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.campus.qa.testcases.PlaceOrderAsRegisteredUserTest@754777cd]" name="tearDown" is-config="true" duration-ms="831" started-at="2019-09-04T13:05:34Z" finished-at="2019-09-04T13:05:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.campus.qa.testcases.PlaceOrderAsRegisteredUserTest@754777cd]" name="setUp" is-config="true" duration-ms="9302" started-at="2019-09-04T13:05:35Z" finished-at="2019-09-04T13:05:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ToPlaceAnOrderAsRegisteredUser(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.campus.qa.testcases.PlaceOrderAsRegisteredUserTest@754777cd]" name="ToPlaceAnOrderAsRegisteredUser" duration-ms="214373" started-at="2019-09-04T13:05:44Z" description="Verifying the registered user to place the order" data-provider="getYourDetailsData" finished-at="2019-09-04T13:09:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[91-12345678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[040-123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ToPlaceAnOrderAsRegisteredUser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.campus.qa.testcases.PlaceOrderAsRegisteredUserTest@754777cd]" name="tearDown" is-config="true" duration-ms="891" started-at="2019-09-04T13:09:18Z" finished-at="2019-09-04T13:09:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.campus.qa.testcases.PlaceOrderAsRegisteredUserTest -->
+    </test> <!-- Automated Test Run -->
+  </suite> <!-- Campus Oil Test Automation Suite -->
+</testng-results>

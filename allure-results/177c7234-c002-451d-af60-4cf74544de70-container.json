@@ -1,0 +1,1 @@
+{"uuid":"177c7234-c002-451d-af60-4cf74544de70","name":"Campus Oil Test Automation Suite","children":["24ea0185-9cbb-4ec4-8660-5f78befa09cb"],"befores":[{"name":"startsuite","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1567596431145,"stop":1567596431155}],"afters":[],"links":[],"start":1567596431102,"stop":1567596539665}

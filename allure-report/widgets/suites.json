@@ -4,23 +4,23 @@
     "uid" : "632b48b5fc941783eacb27fd1433a1a2",
     "name" : "Campus Oil Test Automation Suite",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 3,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 10
+      "total" : 14
     }
   }, {
-    "uid" : "29f4dcc45a0e26cd7c7462063cee854b",
-    "name" : "Suite",
+    "uid" : "2c8837b97293ea01a164a5cd7048ad56",
+    "name" : "Default suite",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 2,
       "skipped" : 2,
-      "passed" : 2,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 7
+      "total" : 4
     }
   } ]
 }

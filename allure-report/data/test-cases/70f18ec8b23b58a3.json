@@ -1,0 +1,695 @@
+{
+  "uid" : "70f18ec8b23b58a3",
+  "name" : "Verifying the unregistered user to place the order",
+  "fullName" : "com.campus.qa.testcases.PlaceOrderAsRegisteredUserTest.ToPlaceOrderAsUnRegisteredUserTest",
+  "historyId" : "b25c24e8b65ee10e46503048801b552b",
+  "time" : {
+    "start" : 1567582317709,
+    "stop" : 1567582534087,
+    "duration" : 216378
+  },
+  "description" : "Test Case Description : Verify the Unregistered user to place the order",
+  "descriptionHtml" : "<p>Test Case Description : Verify the Unregistered user to place the order</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1567582303714,
+      "stop" : 1567582317315,
+      "duration" : 13601
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Case Description : Verify the Unregistered user to place the order",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Selecting the country dropdown",
+      "time" : {
+        "start" : 1567582317760,
+        "stop" : 1567582318720,
+        "duration" : 960
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Selecting the OilType Dropdown",
+      "time" : {
+        "start" : 1567582318720,
+        "stop" : 1567582319434,
+        "duration" : 714
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Selecting the Litres Dropdown",
+      "time" : {
+        "start" : 1567582319434,
+        "stop" : 1567582320011,
+        "duration" : 577
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Clicking on the GetQuote button",
+      "time" : {
+        "start" : 1567582320011,
+        "stop" : 1567582322808,
+        "duration" : 2797
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Verifying the OrderPage",
+      "time" : {
+        "start" : 1567582322836,
+        "stop" : 1567582323000,
+        "duration" : 164
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Validating the county",
+      "time" : {
+        "start" : 1567582323000,
+        "stop" : 1567582323424,
+        "duration" : 424
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Validating the OilType",
+      "time" : {
+        "start" : 1567582323424,
+        "stop" : 1567582323700,
+        "duration" : 276
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Validating the Quantity",
+      "time" : {
+        "start" : 1567582323700,
+        "stop" : 1567582323772,
+        "duration" : 72
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Click on OrderNow button",
+      "time" : {
+        "start" : 1567582323772,
+        "stop" : 1567582326442,
+        "duration" : 2670
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Click on the Register now button",
+      "time" : {
+        "start" : 1567582326451,
+        "stop" : 1567582328949,
+        "duration" : 2498
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "To Enter the user details",
+      "time" : {
+        "start" : 1567582328961,
+        "stop" : 1567582337033,
+        "duration" : 8072
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "title",
+        "value" : "mr"
+      }, {
+        "name" : "Phone",
+        "value" : "91-12345678"
+      }, {
+        "name" : "landline",
+        "value" : "040-123456"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "To Enter the Billing Address  details",
+      "time" : {
+        "start" : 1567582342065,
+        "stop" : 1567582365761,
+        "duration" : 23696
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "To Enter the Required Delivery Date",
+      "time" : {
+        "start" : 1567582365761,
+        "stop" : 1567582375695,
+        "duration" : 9934
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "To Enter the Delivery Address details",
+      "time" : {
+        "start" : 1567582375695,
+        "stop" : 1567582404245,
+        "duration" : 28550
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "To Enter the Password : Test@1234",
+      "time" : {
+        "start" : 1567582404245,
+        "stop" : 1567582405829,
+        "duration" : 1584
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "To Enter the OrderNotes",
+      "time" : {
+        "start" : 1567582405829,
+        "stop" : 1567582406141,
+        "duration" : 312
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "To check the Marketing permissions",
+      "time" : {
+        "start" : 1567582406141,
+        "stop" : 1567582421590,
+        "duration" : 15449
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Verifying the Order summary details",
+      "time" : {
+        "start" : 1567582421590,
+        "stop" : 1567582426147,
+        "duration" : 4557
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "To Enter Payment details ",
+      "time" : {
+        "start" : 1567582426147,
+        "stop" : 1567582478639,
+        "duration" : 52492
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Verifying the Order summary details",
+        "time" : {
+          "start" : 1567582442624,
+          "stop" : 1567582446954,
+          "duration" : 4330
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Verifying the Order Confirmation Page",
+      "time" : {
+        "start" : 1567582478639,
+        "stop" : 1567582534083,
+        "duration" : 55444
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Verifying the OrderDate on the Order Confirmation Page",
+        "time" : {
+          "start" : 1567582488113,
+          "stop" : 1567582488255,
+          "duration" : 142
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 22
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1567582534127,
+      "stop" : 1567582534958,
+      "duration" : 831
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.campus.qa.testcases.PlaceOrderAsRegisteredUserTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.campus.qa.testcases.PlaceOrderAsRegisteredUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "ToPlaceOrderAsUnRegisteredUserTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Campus Oil Test Automation Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Automated Test Run"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.campus.qa.testcases.PlaceOrderAsRegisteredUserTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AL9GHFP"
+  }, {
+    "name" : "thread",
+    "value" : "15464@DESKTOP-AL9GHFP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Use case : Place and order as an unrgistered user and get the check all the totals with products and totals in all the pages"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "mr"
+  }, {
+    "name" : "arg1",
+    "value" : "91-12345678"
+  }, {
+    "name" : "arg2",
+    "value" : "040-123456"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "7d6a6423f60c36fa",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: The result of the xpath expression \"//a[@id='wizard-t-0']/text()\" is: [object Text]. It should be an element.\n  (Session info: chrome=76.0.3809.132)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-AL9GHFP', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\\Users\\dell\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57369}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 2ae6f7c640c13c82d81d98464815864e\n*** Element info: {Using=xpath, value=//a[@id='wizard-t-0']/text()}",
+      "time" : {
+        "start" : 1567581700436,
+        "stop" : 1567581866773,
+        "duration" : 166337
+      }
+    }, {
+      "uid" : "84d8fc7288c4304d",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: The result of the xpath expression \"//a[@id='wizard-t-0']/text()\" is: [object Text]. It should be an element.\n  (Session info: chrome=76.0.3809.132)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-AL9GHFP', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\\Users\\dell\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50049}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 492fe3f48c8551aef5cd03538072f053\n*** Element info: {Using=xpath, value=//a[@id='wizard-t-0']/text()}",
+      "time" : {
+        "start" : 1567149637230,
+        "stop" : 1567149799239,
+        "duration" : 162009
+      }
+    }, {
+      "uid" : "93de01e3f3cf0b4a",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1567149591283,
+        "stop" : 1567149591314,
+        "duration" : 31
+      }
+    }, {
+      "uid" : "c5c78883f2660956",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1567149396077,
+        "stop" : 1567149396093,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "f9df59f9eb25342e",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1567149361843,
+        "stop" : 1567149361871,
+        "duration" : 28
+      }
+    }, {
+      "uid" : "cce01ea312b2f062",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1567149328893,
+        "stop" : 1567149328924,
+        "duration" : 31
+      }
+    }, {
+      "uid" : "4b046ffebe9dd005",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1567149280646,
+        "stop" : 1567149280666,
+        "duration" : 20
+      }
+    }, {
+      "uid" : "e290e4a7d0479e73",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1567149202148,
+        "stop" : 1567149202179,
+        "duration" : 31
+      }
+    }, {
+      "uid" : "7ef58dcde609b065",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1567149156877,
+        "stop" : 1567149156901,
+        "duration" : 24
+      }
+    }, {
+      "uid" : "5004bc0e568cd9a5",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1567149026324,
+        "stop" : 1567149026339,
+        "duration" : 15
+      }
+    }, {
+      "uid" : "aecbfb0ede975cce",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h2[contains(text(),'Thank you. Your order has been received.')]\"}\n  (Session info: chrome=76.0.3809.100)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-AL9GHFP', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\\Users\\dell\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60536}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: ea1eb5eceeb4a338ababdb7c6e2992e5\n*** Element info: {Using=xpath, value=//h2[contains(text(),'Thank you. Your order has been received.')]}",
+      "time" : {
+        "start" : 1567087213379,
+        "stop" : 1567087394813,
+        "duration" : 181434
+      }
+    }, {
+      "uid" : "749ef19f10c7055e",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h2[contains(text(),'Thank you. Your order has been received.')]\"}\n  (Session info: chrome=76.0.3809.100)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-AL9GHFP', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\\Users\\dell\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53748}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: b7cbd55b4e5f57821f7266c66293b7ef\n*** Element info: {Using=xpath, value=//h2[contains(text(),'Thank you. Your order has been received.')]}",
+      "time" : {
+        "start" : 1567077957366,
+        "stop" : 1567078140478,
+        "duration" : 183112
+      }
+    }, {
+      "uid" : "e07a684be89f6894",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h2[contains(text(),'Thank you. Your order has been received.')]\"}\n  (Session info: chrome=76.0.3809.100)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-AL9GHFP', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\\Users\\dell\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63821}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 594046c7791d9a79b54f925f9f70f284\n*** Element info: {Using=xpath, value=//h2[contains(text(),'Thank you. Your order has been received.')]}",
+      "time" : {
+        "start" : 1567001076841,
+        "stop" : 1567001258303,
+        "duration" : 181462
+      }
+    }, {
+      "uid" : "3c14b668cf0af01",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h2[contains(text(),'Thank you. Your order has been received.')]\"}\n  (Session info: chrome=76.0.3809.100)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-AL9GHFP', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\\Users\\dell\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51880}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: a6c46c2abe587ed714f482c96c7b5d95\n*** Element info: {Using=xpath, value=//h2[contains(text(),'Thank you. Your order has been received.')]}",
+      "time" : {
+        "start" : 1566986250973,
+        "stop" : 1566986437142,
+        "duration" : 186169
+      }
+    }, {
+      "uid" : "d499025f2d3d1b1d",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h2[contains(text(),'Thank you. Your order has been received.')]\"}\n  (Session info: chrome=76.0.3809.100)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-AL9GHFP', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\\Users\\dell\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51142}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 06a0ddb629c5c82d1ab53c62006bc88b\n*** Element info: {Using=xpath, value=//h2[contains(text(),'Thank you. Your order has been received.')]}",
+      "time" : {
+        "start" : 1566985174656,
+        "stop" : 1566985356865,
+        "duration" : 182209
+      }
+    }, {
+      "uid" : "b780180926cdba70",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h2[contains(text(),'Thank you. Your order has been received.')]\"}\n  (Session info: chrome=76.0.3809.100)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-AL9GHFP', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\\Users\\dell\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50243}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: b8a7688e17e10cefab7da09c39806efa\n*** Element info: {Using=xpath, value=//h2[contains(text(),'Thank you. Your order has been received.')]}",
+      "time" : {
+        "start" : 1566983261713,
+        "stop" : 1566983443250,
+        "duration" : 181537
+      }
+    }, {
+      "uid" : "2a508d5cf556b033",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h2[contains(text(),'Thank you. Your order has been received.')]\"}\n  (Session info: chrome=76.0.3809.100)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-AL9GHFP', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\\Users\\dell\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49280}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: ffb5173bbfbf8fad449de727f90d073e\n*** Element info: {Using=xpath, value=//h2[contains(text(),'Thank you. Your order has been received.')]}",
+      "time" : {
+        "start" : 1566982290332,
+        "stop" : 1566982473319,
+        "duration" : 182987
+      }
+    }, {
+      "uid" : "daca29adc10c15dd",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h2[contains(text(),'Thank you. Your order has been received.')]\"}\n  (Session info: chrome=76.0.3809.100)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-AL9GHFP', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\\Users\\dell\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60681}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: ed37a12d80e695349342e83ff2df6b15\n*** Element info: {Using=xpath, value=//h2[contains(text(),'Thank you. Your order has been received.')]}",
+      "time" : {
+        "start" : 1566971941344,
+        "stop" : 1566972130462,
+        "duration" : 189118
+      }
+    }, {
+      "uid" : "8b5c0df8589a8b9b",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h2[contains(text(),'Thank you. Your order has been received.')]\"}\n  (Session info: chrome=76.0.3809.100)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-AL9GHFP', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\\Users\\dell\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56858}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: a3e67e54ba3ec53a498247eec06cacf8\n*** Element info: {Using=xpath, value=//h2[contains(text(),'Thank you. Your order has been received.')]}",
+      "time" : {
+        "start" : 1566913580296,
+        "stop" : 1566913763848,
+        "duration" : 183552
+      }
+    }, {
+      "uid" : "f9c122910777e8d0",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h2[contains(text(),'Thank you. Your order has been received.')]\"}\n  (Session info: chrome=76.0.3809.100)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-AL9GHFP', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\\Users\\dell\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51210}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 4b3829819b8ff6142aa1f475ba68ee0d\n*** Element info: {Using=xpath, value=//h2[contains(text(),'Thank you. Your order has been received.')]}",
+      "time" : {
+        "start" : 1566908453147,
+        "stop" : 1566908640249,
+        "duration" : 187102
+      }
+    }, {
+      "uid" : "4ab1d05a6a6f4f6e",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h2[contains(text(),'Thank you. Your order has been received.')]\"}\n  (Session info: chrome=76.0.3809.100)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-AL9GHFP', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\\Users\\dell\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64218}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 680187b2506c81f0cdaeca73875b0bb8\n*** Element info: {Using=xpath, value=//h2[contains(text(),'Thank you. Your order has been received.')]}",
+      "time" : {
+        "start" : 1566905488624,
+        "stop" : 1566905674324,
+        "duration" : 185700
+      }
+    }, {
+      "uid" : "67ce00a696adcaf0",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h2[contains(text(),'Thank you. Your order has been received.')]\"}\n  (Session info: chrome=76.0.3809.100)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-AL9GHFP', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\\Users\\dell\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52625}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 81551d13a0c744cb81960a61e041f79a\n*** Element info: {Using=xpath, value=//h2[contains(text(),'Thank you. Your order has been received.')]}",
+      "time" : {
+        "start" : 1566894243487,
+        "stop" : 1566894424398,
+        "duration" : 180911
+      }
+    }, {
+      "uid" : "2a1347ebd26b9c97",
+      "status" : "failed",
+      "statusDetails" : "APARTMENT A32 expected [APARTMENT A32] but found [done]",
+      "time" : {
+        "start" : 1566893998217,
+        "stop" : 1566894035151,
+        "duration" : 36934
+      }
+    }, {
+      "uid" : "7e69d654e888ee2d",
+      "status" : "failed",
+      "statusDetails" : "APARTMENT A32 expected [APARTMENT A32] but found [done]",
+      "time" : {
+        "start" : 1566893771207,
+        "stop" : 1566893810945,
+        "duration" : 39738
+      }
+    }, {
+      "uid" : "ed8340b2da6f24b8",
+      "status" : "failed",
+      "statusDetails" : "APARTMENT A32 expected [APARTMENT A32] but found [done]",
+      "time" : {
+        "start" : 1566890262537,
+        "stop" : 1566890301889,
+        "duration" : 39352
+      }
+    }, {
+      "uid" : "fd1acbf038371841",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h2[contains(text(),'Thank you. Your order has been received.')]\"}\n  (Session info: chrome=76.0.3809.100)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-AL9GHFP', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\\Users\\dell\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56491}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 2fb63de686a4298538f6346dd4f6aefb\n*** Element info: {Using=xpath, value=//h2[contains(text(),'Thank you. Your order has been received.')]}",
+      "time" : {
+        "start" : 1566829081300,
+        "stop" : 1566829274578,
+        "duration" : 193278
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "70f18ec8b23b58a3.json",
+  "parameterValues" : [ "mr", "91-12345678", "040-123456" ]
+}

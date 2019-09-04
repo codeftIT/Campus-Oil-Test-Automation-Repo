@@ -1,0 +1,15 @@
+com\qa\util\java\ExcelImporter.class
+com\campusOil\qa\pages\NewsPage.class
+com\campusOil\qa\pages\LoginPage.class
+com\campusOil\qa\pages\RegistrationPage.class
+com\campusOil\qa\pages\OrderFormPage.class
+com\qa\util\java\TestUtil.class
+com\campusOil\qa\base\TestBase.class
+com\qa\CampusOil\ReportListeners\AllureReportListener.class
+com\campusOil\qa\pages\PlaceOrderAsRegisteredUser.class
+com\campusOil\qa\pages\AboutUsPage.class
+com\qa\CampusOil\ReportListeners\ExtentReporterNG.class
+com\qa\util\java\GetTestData.class
+com\qa\util\java\WebEventListener.class
+com\campusOil\qa\pages\HomePage.class
+com\qa\coloroutput\com\Colorme.class
