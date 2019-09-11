@@ -6,7 +6,7 @@
       <class name="com.campus.qa.testcases.PlaceOrderAsRegisteredUserTest">
         <methods>
           <include name="ToPlaceOrderAsUnRegisteredUserTest" invocation-numbers="0"/>
-          <include name="ToPlaceAnOrderAsRegisteredUser" invocation-numbers="0"/>
+          <include name="ToPlaceAnOrderAsRegisteredUser"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>

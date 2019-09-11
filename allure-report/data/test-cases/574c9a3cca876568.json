@@ -1,0 +1,108 @@
+{
+  "uid" : "574c9a3cca876568",
+  "name" : "VerifyclickLoginnowTest",
+  "fullName" : "com.campus.qa.testcases.LoginPageTest.VerifyclickLoginnowTest",
+  "historyId" : "1ae39dc77066b1bfe943e3911281ef92",
+  "time" : {
+    "start" : 1567596489734,
+    "stop" : 1567596491884,
+    "duration" : 2150
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1567596479500,
+      "stop" : 1567596489725,
+      "duration" : 10225
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "startsuite",
+    "time" : {
+      "start" : 1567596431145,
+      "stop" : 1567596431155,
+      "duration" : 10
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1567596491888,
+      "stop" : 1567596500113,
+      "duration" : 8225
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.campus.qa.testcases.LoginPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.campus.qa.testcases.LoginPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "VerifyclickLoginnowTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Campus Oil Test Automation Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Automated Test Run"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.campus.qa.testcases.LoginPageTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AL9GHFP"
+  }, {
+    "name" : "thread",
+    "value" : "14792@DESKTOP-AL9GHFP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "574c9a3cca876568.json",
+  "parameterValues" : [ ]
+}

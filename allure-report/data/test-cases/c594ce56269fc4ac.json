@@ -1,0 +1,109 @@
+{
+  "uid" : "c594ce56269fc4ac",
+  "name" : "Verifying the unregistered user to place the order",
+  "fullName" : "com.campus.qa.testcases.PlaceOrderAsRegisteredUserTest.ToPlaceOrderAsUnRegisteredUserTest",
+  "historyId" : "b25c24e8b65ee10e46503048801b552b",
+  "time" : {
+    "start" : 1568041565498,
+    "stop" : 1568041780238,
+    "duration" : 214740
+  },
+  "description" : "Test Case Description : Verify the Unregistered user to place the order",
+  "descriptionHtml" : "<p>Test Case Description : Verify the Unregistered user to place the order</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1568041542347,
+      "stop" : 1568041565234,
+      "duration" : 22887
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1568041780254,
+      "stop" : 1568041781193,
+      "duration" : 939
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.campus.qa.testcases.PlaceOrderAsRegisteredUserTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.campus.qa.testcases.PlaceOrderAsRegisteredUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "ToPlaceOrderAsUnRegisteredUserTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.campus.qa.testcases.PlaceOrderAsRegisteredUserTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AL9GHFP"
+  }, {
+    "name" : "thread",
+    "value" : "18308@DESKTOP-AL9GHFP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Use case : Place and order as an unrgistered user and get the check all the totals with products and totals in all the pages"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "mr"
+  }, {
+    "name" : "arg1",
+    "value" : "91-12345678"
+  }, {
+    "name" : "arg2",
+    "value" : "040-123456"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c594ce56269fc4ac.json",
+  "parameterValues" : [ "mr", "91-12345678", "040-123456" ]
+}

@@ -2,63 +2,12 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "expected [Order Heating Oil Online Buy Heating Oil Ireland] but found [Order Home Heating Oil Online Buy Heating Oil Ireland]",
-      "children" : [ {
-        "name" : "verifyTitle",
-        "uid" : "de77eb525897f976",
-        "parentUid" : "e3f455877510be9e1f0d5210e3c4f8fd",
-        "status" : "failed",
-        "time" : {
-          "start" : 1567078461636,
-          "stop" : 1567078464797,
-          "duration" : 3161
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "VerifyloginPageTitleTest",
-        "uid" : "7d970a1387c86480",
-        "parentUid" : "e3f455877510be9e1f0d5210e3c4f8fd",
-        "status" : "failed",
-        "time" : {
-          "start" : 1567581314908,
-          "stop" : 1567581316822,
-          "duration" : 1914
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "e3f455877510be9e1f0d5210e3c4f8fd"
-    }, {
-      "name" : "expected [true] but found [false]",
-      "children" : [ {
-        "name" : "VerifycampusLogoTest",
-        "uid" : "958fee593f055bbc",
-        "parentUid" : "067aa11ae245eca950dc984999fefd6d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1567581329720,
-          "stop" : 1567581331551,
-          "duration" : 1831
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "067aa11ae245eca950dc984999fefd6d"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
     "name" : "Test defects",
     "children" : [ {
       "name" : "java.lang.NullPointerException",
       "children" : [ {
         "name" : "setUp",
-        "uid" : "bf153db1e81ce48a",
+        "uid" : "41525817b8233a45",
         "parentUid" : "5592898b36d684905e31486a23088bda",
         "status" : "broken",
         "time" : {
@@ -71,12 +20,25 @@
         "parameters" : [ ]
       }, {
         "name" : "tearDown",
-        "uid" : "66dfc446b0bfe059",
+        "uid" : "29f32f6395812b43",
         "parentUid" : "5592898b36d684905e31486a23088bda",
         "status" : "broken",
         "time" : {
-          "start" : 1567149591345,
-          "stop" : 1567149591345,
+          "start" : 1568041175460,
+          "stop" : 1568041175462,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "tearDown",
+        "uid" : "2c886ac269899151",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1568041484014,
+          "stop" : 1568041484014,
           "duration" : 0
         },
         "flaky" : false,
@@ -85,40 +47,91 @@
       } ],
       "uid" : "5592898b36d684905e31486a23088bda"
     }, {
-      "name" : "element not interactable\n  (Session info: chrome=76.0.3809.132)\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-AL9GHFP', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\\Users\\dell\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57250}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 7511980a379a418e21e59fb66e572d27",
+      "name" : "element not interactable\n  (Session info: chrome=76.0.3809.132)\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-AL9GHFP', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\\Users\\dell\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55507}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: d123affeb89466d4c64c0c6022e56215",
       "children" : [ {
         "name" : "VerifyclickLoginnowTest",
-        "uid" : "a1ce9a79450f35c9",
-        "parentUid" : "c5f603a3e80665713ebd392039f07bb2",
+        "uid" : "6f10a6c55162e68e",
+        "parentUid" : "0d883961451a0f774170ab3abc328e54",
         "status" : "broken",
         "time" : {
-          "start" : 1567581343591,
-          "stop" : 1567581366631,
-          "duration" : 23040
+          "start" : 1568183030728,
+          "stop" : 1568183054174,
+          "duration" : 23446
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "c5f603a3e80665713ebd392039f07bb2"
+      "uid" : "0d883961451a0f774170ab3abc328e54"
     }, {
-      "name" : "element not interactable\n  (Session info: chrome=76.0.3809.132)\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-AL9GHFP', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\\Users\\dell\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57294}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 85aa89d5e00a918908ab54906832bb61",
+      "name" : "element not interactable\n  (Session info: chrome=76.0.3809.132)\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-AL9GHFP', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\\Users\\dell\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55610}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 6c6e7bc0f35d6433072fda1b40784811",
       "children" : [ {
         "name" : "VerifyloginTest",
-        "uid" : "ff86bc78024a11f6",
-        "parentUid" : "c6b8080daba937bc0e2c9639d21cf9e2",
+        "uid" : "24e4ca04fa836b33",
+        "parentUid" : "0ee3940aaaa1a8966d89dd371f70ff24",
         "status" : "broken",
         "time" : {
-          "start" : 1567581379310,
-          "stop" : 1567581402394,
-          "duration" : 23084
+          "start" : 1568183083746,
+          "stop" : 1568183107693,
+          "duration" : 23947
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "c6b8080daba937bc0e2c9639d21cf9e2"
+      "uid" : "0ee3940aaaa1a8966d89dd371f70ff24"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected [Order Heating Oil Online Buy Heating Oil Ireland] but found [Order Home Heating Oil Online Buy Heating Oil Ireland]",
+      "children" : [ {
+        "name" : "VerifyloginPageTitleTest",
+        "uid" : "5a3559704698450a",
+        "parentUid" : "e3f455877510be9e1f0d5210e3c4f8fd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1568182495278,
+          "stop" : 1568182497442,
+          "duration" : 2164
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyTitle",
+        "uid" : "3f6576529a1385e0",
+        "parentUid" : "e3f455877510be9e1f0d5210e3c4f8fd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1568183133992,
+          "stop" : 1568183135936,
+          "duration" : 1944
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e3f455877510be9e1f0d5210e3c4f8fd"
+    }, {
+      "name" : "expected [true] but found [false]",
+      "children" : [ {
+        "name" : "VerifycampusLogoTest",
+        "uid" : "bdd2ab3c5bf72e0",
+        "parentUid" : "067aa11ae245eca950dc984999fefd6d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1568182774711,
+          "stop" : 1568182776600,
+          "duration" : 1889
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "067aa11ae245eca950dc984999fefd6d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
 }

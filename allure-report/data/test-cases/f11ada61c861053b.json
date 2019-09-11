@@ -1,0 +1,150 @@
+{
+  "uid" : "f11ada61c861053b",
+  "name" : "verifyPageFooterLogoTest",
+  "fullName" : "com.campus.qa.testcases.HomePageTest.verifyPageFooterLogoTest",
+  "historyId" : "3fe600e7a15663828ed864d02032a492",
+  "time" : {
+    "start" : 1568183121529,
+    "stop" : 1568183121617,
+    "duration" : 88
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1568183110430,
+      "stop" : 1568183121523,
+      "duration" : 11093
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "startsuite",
+    "time" : {
+      "start" : 1568182452892,
+      "stop" : 1568182453080,
+      "duration" : 188
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1568183121619,
+      "stop" : 1568183122533,
+      "duration" : 914
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "endSuite",
+    "time" : {
+      "start" : 1568183176677,
+      "stop" : 1568183176677,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.campus.qa.testcases.HomePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.campus.qa.testcases.HomePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyPageFooterLogoTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Campus Oil Test Automation Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Automated Test Run"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.campus.qa.testcases.HomePageTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AL9GHFP"
+  }, {
+    "name" : "thread",
+    "value" : "7580@DESKTOP-AL9GHFP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "77f4eb2c77e0831d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567078441431,
+        "stop" : 1567078441531,
+        "duration" : 100
+      }
+    }, {
+      "uid" : "5c291db0e436b8c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567001477190,
+        "stop" : 1567001477290,
+        "duration" : 100
+      }
+    }, {
+      "uid" : "d79fd4a153b50299",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566998945416,
+        "stop" : 1566998945638,
+        "duration" : 222
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f11ada61c861053b.json",
+  "parameterValues" : [ ]
+}

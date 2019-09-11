@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Campus Oil Test Automation Suite]">
-  <listeners>
-    <listener class-name="com.qa.CampusOil.ReportListeners.ExtentReporterNG"/>
-    <listener class-name="com.qa.CampusOil.ReportListeners.AllureReportListener"/>
-  </listeners>
-  <test name="Automated Test Run(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.campus.qa.testcases.LoginPageTest">
+      <class name="com.campus.qa.testcases.PlaceOrderAsRegisteredUserTest">
         <methods>
+          <include name="ToPlaceOrderAsUnRegisteredUserTest" invocation-numbers="0"/>
+          <include name="ToPlaceAnOrderAsRegisteredUser"/>
           <include name="tearDown"/>
-          <include name="startsuite"/>
-          <include name="VerifyloginPageTitleTest"/>
           <include name="setUp"/>
-          <include name="VerifyloginTest"/>
         </methods>
-      </class> <!-- com.campus.qa.testcases.LoginPageTest -->
+      </class> <!-- com.campus.qa.testcases.PlaceOrderAsRegisteredUserTest -->
     </classes>
-  </test> <!-- Automated Test Run(failed) -->
-</suite> <!-- Failed suite [Campus Oil Test Automation Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

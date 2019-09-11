@@ -11,8 +11,8 @@
   <test thread-count="5" name="Automated Test Run">
     <classes>
       <class name="com.campus.qa.testcases.LoginPageTest"/>
-      <!-- <class name="com.campus.qa.testcases.HomePageTest"/>
+      <class name="com.campus.qa.testcases.HomePageTest"/>
       <class name="com.campus.qa.testcases.PlaceOrderAsRegisteredUserTest"/>
- -->    </classes>
+    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

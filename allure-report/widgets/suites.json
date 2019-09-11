@@ -5,11 +5,11 @@
     "name" : "Campus Oil Test Automation Suite",
     "statistic" : {
       "failed" : 3,
-      "broken" : 2,
+      "broken" : 3,
       "skipped" : 0,
       "passed" : 9,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     }
   }, {
     "uid" : "2c8837b97293ea01a164a5cd7048ad56",

@@ -1,4 +1,38 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 462.851 s - in TestSuite
+Tests run: 14, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 743.805 s <<< FAILURE! - in TestSuite
+VerifyloginPageTitleTest(com.campus.qa.testcases.LoginPageTest)  Time elapsed: 2.203 s  <<< FAILURE!
+java.lang.AssertionError: expected [Order Heating Oil Online Buy Heating Oil Ireland] but found [Order Home Heating Oil Online Buy Heating Oil Ireland]
+	at com.campus.qa.testcases.LoginPageTest.VerifyloginPageTitleTest(LoginPageTest.java:53)
+
+VerifycampusLogoTest(com.campus.qa.testcases.LoginPageTest)  Time elapsed: 1.863 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.campus.qa.testcases.LoginPageTest.VerifycampusLogoTest(LoginPageTest.java:60)
+
+VerifyclickLoginnowTest(com.campus.qa.testcases.LoginPageTest)  Time elapsed: 23.426 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=76.0.3809.132)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-AL9GHFP', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55507}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d123affeb89466d4c64c0c6022e56215
+	at com.campus.qa.testcases.LoginPageTest.VerifyclickLoginnowTest(LoginPageTest.java:66)
+
+VerifyloginTest(com.campus.qa.testcases.LoginPageTest)  Time elapsed: 23.93 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=76.0.3809.132)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-AL9GHFP', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55610}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6c6e7bc0f35d6433072fda1b40784811
+	at com.campus.qa.testcases.LoginPageTest.VerifyloginTest(LoginPageTest.java:73)
+
+verifyTitle(com.campus.qa.testcases.HomePageTest)  Time elapsed: 1.944 s  <<< FAILURE!
+java.lang.AssertionError: expected [Order Heating Oil Online Buy Heating Oil Ireland] but found [Order Home Heating Oil Online Buy Heating Oil Ireland]
+	at com.campus.qa.testcases.HomePageTest.verifyTitle(HomePageTest.java:66)
+
