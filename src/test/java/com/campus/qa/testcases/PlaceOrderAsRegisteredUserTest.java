@@ -85,7 +85,7 @@ public class PlaceOrderAsRegisteredUserTest extends TestBase {
 		return result.toArray(new Object[result.size()][]);
 	}
 
-	@Test(priority = 1, dataProvider = "getYourDetailsData", description = "Verifying the unregistered user to place the order")
+	/*@Test(priority = 1, dataProvider = "getYourDetailsData", description = "Verifying the unregistered user to place the order")
 	@Severity(SeverityLevel.CRITICAL)
 	@Description("Test Case Description : Verify the Unregistered user to place the order")
 	@Story("Use case : Place and order as an unrgistered user and get the check all the totals with products and totals in all the pages")
@@ -137,7 +137,7 @@ public class PlaceOrderAsRegisteredUserTest extends TestBase {
 		// OrderPlacer.OrderDateVerificationOnOrderConfPage();
 
 	}
-
+*/
 	@Test(priority = 2, dataProvider = "getYourDetailsData", description = "Verifying the registered user to place the order")
 	@Severity(SeverityLevel.CRITICAL)
 	@Description("Test Case Description : Verify the Registered user to place the order")

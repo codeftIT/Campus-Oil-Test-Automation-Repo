@@ -1,244 +1,317 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="743.805" tests="14" errors="0" skipped="0" failures="5">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="83.661" tests="1" errors="0" skipped="0" failures="1">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
-    <property name="java.vm.version" value="25.221-b11"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\dell\Desktop\photonclipse\CampusOil.ie"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=";"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="user.script" value=""/>
-    <property name="user.country" value="IN"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\dell\Desktop\photonclipse\CampusOil.ie"/>
-    <property name="java.runtime.version" value="1.8.0_221-b11"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\dell\AppData\Local\Temp\"/>
-    <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\dell\Desktop\Test Base files\apache-maven-3.6.1\bin\..\bin\m2.conf"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\dell\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\dell\AppData\Local\Programs\Python\Python37\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python37\Scripts\;C:\Python37\;C:\Program Files\Docker\Docker\Resources\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\File Viewer Lite\lib\magick;C:\Users\dell\Desktop\Test Base files\apache-maven-3.6.1\bin;C:\Users\dell\Desktop\Test Base files\allure-2.10.0;C:\Program Files\nodejs\;E:\andro\platform-tools;E:\andro\;E:\andro\tools;E:\andro\tools\bin;C:\Users\dell\scoop\shims;C:\Users\dell\.windows-build-tools\python27\;C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\dell\AppData\Roaming\npm\node_modules\windows-build-tools\node_modules\.bin;C:\Users\dell\AppData\Roaming\npm\node_modules\.bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\dell\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Lando\bin;C:\Users\dell\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\dell\AppData\Local\Microsoft\WindowsApps;C:\xampp\php;C:\tools\dart-sdk\bin;C:\Users\dell\AppData\Roaming\Pub\Cache\bin;&quot;C:\Users\dell\AppData\Local\.meteor;\usr\local\bin\python3.7&quot;;C:\Users\dell\AppData\Local\GitHubDesktop\bin;C:\Users\dell\AppData\Roaming\npm;."/>
-    <property name="maven.conf" value="C:\Users\dell\Desktop\Test Base files\apache-maven-3.6.1\bin\../conf"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="52.0"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="C:\Users\dell\Desktop\Test Base files\apache-maven-3.6.1\bin\..\lib\jansi-native"/>
-    <property name="user.home" value="C:\Users\dell"/>
-    <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="java.specification.version" value="1.8"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="user.name" value="dell"/>
-    <property name="java.class.path" value="C:\Users\dell\Desktop\Test Base files\apache-maven-3.6.1\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="sun.arch.data.model" value="64"/>
+    <property name="LOGONSERVER" value="\\DESKTOP-AL9GHFP"/>
+    <property name="ALLURE_HOME" value="C:\Users\dell\scoop\apps\allure\current"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_221\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.language" value="en"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.vm.info" value="mixed mode"/>
+    <property name="LANDO_INSTALL_PATH" value="C:\Program Files\Lando"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/jenkins/"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="=::" value="::\"/>
+    <property name="USERDOMAIN" value="DESKTOP-AL9GHFP"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
     <property name="java.version" value="1.8.0_221"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
-    <property name="sun.stderr.encoding" value="cp437"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Users\dell\Desktop\Test Base files\apache-maven-3.6.1\bin\.."/>
-    <property name="file.separator" value="\"/>
+    <property name="JOB_NAME" value="CampusOil Test Automation"/>
+    <property name="COMPUTERNAME" value="DESKTOP-AL9GHFP"/>
+    <property name="ANDROID_HOME" value="E:\andro"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="sun.cpu.endian" value="little"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="ChocolateyLastPathUpdate" value="Thu Nov 22 19:53:04 2018"/>
+    <property name="user.name" value="dell"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 69 Stepping 1, GenuineIntel"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="LOCALAPPDATA" value="C:\Users\dell\AppData\Local"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/jenkins/job/CampusOil%20Test%20Automation/34/display/redirect?page=changes"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="user.script" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="BUILD_TAG" value="jenkins-CampusOil Test Automation-34"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="VS140COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\"/>
+    <property name="php" value="C:\xampp\php"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\dell\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven C:\Users\dell\.jenkins\war\WEB-INF\lib\remoting-3.29.jar C:\Users\dell\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\dell\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 56643"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/jenkins/"/>
+    <property name="JENKINS_SERVER_COOKIE" value="ac022e3748ad4138"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_221/bin;C:\Users\dell\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\dell\AppData\Local\Programs\Python\Python37\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python37\Scripts\;C:\Python37\;C:\Program Files\Docker\Docker\Resources\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\File Viewer Lite\lib\magick;C:\Users\dell\Desktop\Test Base files\apache-maven-3.6.1\bin;C:\Users\dell\Desktop\Test Base files\allure-2.10.0;C:\Program Files\nodejs\;E:\andro\platform-tools;E:\andro\;E:\andro\tools;E:\andro\tools\bin;C:\Program Files\Git\cmd;C:\Users\dell\scoop\shims;C:\Users\dell\.windows-build-tools\python27\;C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\dell\AppData\Roaming\npm\node_modules\windows-build-tools\node_modules\.bin;C:\Users\dell\AppData\Roaming\npm\node_modules\.bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\nodejs\;C:\Users\dell\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Lando\bin;C:\Users\dell\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\dell\AppData\Local\Microsoft\WindowsApps;C:\xampp\php;C:\tools\dart-sdk\bin;C:\Users\dell\AppData\Roaming\Pub\Cache\bin;&quot;C:\Users\dell\AppData\Local\.meteor;\usr\local\bin\python3.7&quot;;C:\Users\dell\AppData\Local\GitHubDesktop\bin;C:\Users\dell\AppData\Roaming\npm"/>
+    <property name="java.io.tmpdir" value="C:\Users\dell\AppData\Local\Temp\"/>
+    <property name="APPDATA" value="C:\Users\dell\AppData\Roaming"/>
+    <property name="user.language" value="en"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="BUILD_URL" value="http://localhost:8080/jenkins/job/CampusOil%20Test%20Automation/34/"/>
+    <property name="M2_HOME" value="C:\Users\dell\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="ChocolateyToolsLocation" value="C:\tools"/>
+    <property name="=C:" value="C:\"/>
+    <property name="PATH+CHROMEDRIVER" value="C:\Users\dell\.jenkins\tools\chromedriver"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
     <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="BUILD_DISPLAY_NAME" value="#34"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="HUDSON_SERVER_COOKIE" value="ac022e3748ad4138"/>
+    <property name="MAVEN_HOME" value="C:\Users\dell\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="VCTargetsPath" value="C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="maven3.interceptor.common" value="C:\Users\dell\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="HOMEPATH" value="\Users\dell"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="34"/>
+    <property name="maven3.interceptor" value="C:\Users\dell\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\dell\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files\Java\jdk1.8.0_221/bin;C:\Users\dell\.jenkins\tools\chromedriver;C:\Program Files\Java\jdk1.8.0_221/bin;C:\Users\dell\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\dell\AppData\Local\Programs\Python\Python37\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python37\Scripts\;C:\Python37\;C:\Program Files\Docker\Docker\Resources\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\File Viewer Lite\lib\magick;C:\Users\dell\Desktop\Test Base files\apache-maven-3.6.1\bin;C:\Users\dell\Desktop\Test Base files\allure-2.10.0;C:\Program Files\nodejs\;E:\andro\platform-tools;E:\andro\;E:\andro\tools;E:\andro\tools\bin;C:\Program Files\Git\cmd;C:\Users\dell\scoop\shims;C:\Users\dell\.windows-build-tools\python27\;C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\dell\AppData\Roaming\npm\node_modules\windows-build-tools\node_modules\.bin;C:\Users\dell\AppData\Roaming\npm\node_modules\.bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\nodejs\;C:\Users\dell\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Lando\bin;C:\Users\dell\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\dell\AppData\Local\Microsoft\WindowsApps;C:\xampp\php;C:\tools\dart-sdk\bin;C:\Users\dell\AppData\Roaming\Pub\Cache\bin;&quot;C:\Users\dell\AppData\Local\.meteor;\usr\local\bin\python3.7&quot;;C:\Users\dell\AppData\Local\GitHubDesktop\bin;C:\Users\dell\AppData\Roaming\npm;."/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="POM_GROUPID" value="CampusOil.ie"/>
+    <property name="POM_ARTIFACTID" value="CampusOil.ie"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="JOB_URL" value="http://localhost:8080/jenkins/job/CampusOil%20Test%20Automation/"/>
+    <property name="OneDrive" value="C:\Users\dell\OneDrive"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/jenkins/job/CampusOil%20Test%20Automation/34/display/redirect"/>
+    <property name="JENKINS_HOME" value="C:\Users\dell\.jenkins"/>
+    <property name="BUILD_ID" value="34"/>
+    <property name="TEMP" value="C:\Users\dell\AppData\Local\Temp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.variant" value=""/>
+    <property name="PROCESSOR_REVISION" value="4501"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="HUDSON_HOME" value="C:\Users\dell\.jenkins"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="PATH+MAVEN" value="C:\Users\dell\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-AL9GHFP"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_221"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="NODE_LABELS" value="master"/>
     <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="USERPROFILE" value="C:\Users\dell"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/jenkins/job/CampusOil%20Test%20Automation/display/redirect"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\dell"/>
+    <property name="GYP_MSVS_VERSION" value="2015"/>
+    <property name="USERNAME" value="dell"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="MAGICK_FILTER_MODULE_PATH" value="C:\Program Files (x86)\File Viewer Lite\lib\magick\modules\filters"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="user.dir" value="C:\Users\dell\Desktop\photonclipse\CampusOil.ie"/>
+    <property name="maven.conf" value="C:\Users\dell\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\conf"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="TMP" value="C:\Users\dell\AppData\Local\Temp"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="ANDROID_SDK_ROOT" value="E:\andro"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="java.class.path" value="C:\Users\dell\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\dell\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\boot\plexus-classworlds-2.6.0.jar;C:\Users\dell\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/conf/logging"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="WORKSPACE" value="C:\Users\dell\.jenkins\workspace\CampusOil Test Automation"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="MAGICK_CODER_MODULE_PATH" value="C:\Program Files (x86)\File Viewer Lite\lib\magick\modules\coders"/>
+    <property name="file.separator" value="\"/>
+    <property name="ChocolateyInstall" value="C:\ProgramData\chocolatey"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_221/bin"/>
+    <property name="user.country" value="IN"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="maven.home" value="C:\Users\dell\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="JOB_BASE_NAME" value="CampusOil Test Automation"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="CampusOil.ie"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
   </properties>
-  <testcase name="VerifyloginPageTitleTest" classname="com.campus.qa.testcases.LoginPageTest" time="2.203">
-    <failure message="expected [Order Heating Oil Online Buy Heating Oil Ireland] but found [Order Home Heating Oil Online Buy Heating Oil Ireland]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Order Heating Oil Online Buy Heating Oil Ireland] but found [Order Home Heating Oil Online Buy Heating Oil Ireland]
-	at com.campus.qa.testcases.LoginPageTest.VerifyloginPageTitleTest(LoginPageTest.java:53)
+  <testcase name="ToPlaceAnOrderAsRegisteredUser" classname="com.campus.qa.testcases.PlaceOrderAsRegisteredUserTest" time="43.42">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;woo-login-popup-sc-left&apos;]//div[@id=&apos;woo-login-popup-sc-login&apos;]//form//p[1]//input[@name=&apos;username&apos;]&quot;}&#10;  (Session info: chrome=76.0.3809.132)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-AL9GHFP&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56657}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: b84928c0f7aa08a4210b6bd0bc126e06&#10;*** Element info: {Using=xpath, value=//div[@class=&apos;woo-login-popup-sc-left&apos;]//div[@id=&apos;woo-login-popup-sc-login&apos;]//form//p[1]//input[@name=&apos;username&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='woo-login-popup-sc-left']//div[@id='woo-login-popup-sc-login']//form//p[1]//input[@name='username']"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-AL9GHFP', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56657}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b84928c0f7aa08a4210b6bd0bc126e06
+*** Element info: {Using=xpath, value=//div[@class='woo-login-popup-sc-left']//div[@id='woo-login-popup-sc-login']//form//p[1]//input[@name='username']}
+	at com.campus.qa.testcases.PlaceOrderAsRegisteredUserTest.ToPlaceAnOrderAsRegisteredUser(PlaceOrderAsRegisteredUserTest.java:173)
 </failure>
-    <system-out><![CDATA[&amp#27;[1;94m****HomePage Test Started****&amp#27;[0m
-&amp#27;[0;103m&amp#27;[1;31m****************************************************************\n                 CAMPUS OIL TEST AUTOMATION SUITE STARTED
-****************************************************************&amp#27;[0m
+    <system-out><![CDATA[&amp#27;[4;32mI am in onStart method Automated Test Run&amp#27;[0m
 &amp#27;[4;32mI am in onStart method Automated Test Run&amp#27;[0m
-&amp#27;[4;32mI am in onStart method Automated Test Run&amp#27;[0m
-Intialization testnull
-org.openqa.selenium.support.events.EventFiringWebDriver@2e869098
+org.openqa.selenium.support.events.EventFiringWebDriver@2a87ba34
 &amp#27;[1;95mBefore navigating to: 'https://campusoil.awebdigital.co/'&amp#27;[0m
 &amp#27;[1;95mNavigated to:'https://campusoil.awebdigital.co/'&amp#27;[0m
-Intialization test 2org.openqa.selenium.support.events.EventFiringWebDriver@2e869098
-&amp#27;[1;94m****LoginPage Test Started****&amp#27;[0m
-&amp#27;[1;90mI am in onTestStart method VerifyloginPageTitleTest start&amp#27;[0m
-&amp#27;[1;90mI am in onTestStart method VerifyloginPageTitleTest start&amp#27;[0m
-&amp#27;[1;94m****Verify the login page title Test****&amp#27;[0m
-&amp#27;[4;31mI am in onTestFailure method VerifyloginPageTitleTest failed&amp#27;[0m
-&amp#27;[1;91mScreenshot captured for test case:VerifyloginPageTitleTest&amp#27;[0m
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}) on port 41905
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1568182474.614][WARNING]: This version of ChromeDriver has not been tested with Chrome version 76.
-Sep 11, 2019 11:44:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="verifyLogoTest" classname="com.campus.qa.testcases.HomePageTest" time="0.758"/>
-  <testcase name="ToPlaceOrderAsUnRegisteredUserTest" classname="com.campus.qa.testcases.PlaceOrderAsRegisteredUserTest" time="221.546"/>
-  <testcase name="VerifycampusLogoTest" classname="com.campus.qa.testcases.LoginPageTest" time="1.863">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at com.campus.qa.testcases.LoginPageTest.VerifycampusLogoTest(LoginPageTest.java:60)
-</failure>
-    <system-out><![CDATA[&amp#27;[0;102mI am in onTestSuccess method ToPlaceOrderAsUnRegisteredUserTest succeed&amp#27;[0m
-&amp#27;[1;92m*****Test Completed and quitting the browser****&amp#27;[0m
-Intialization testorg.openqa.selenium.support.events.EventFiringWebDriver@78b0ec3a
-org.openqa.selenium.support.events.EventFiringWebDriver@56554365
-&amp#27;[1;95mBefore navigating to: 'https://campusoil.awebdigital.co/'&amp#27;[0m
-&amp#27;[1;95mNavigated to:'https://campusoil.awebdigital.co/'&amp#27;[0m
-Intialization test 2org.openqa.selenium.support.events.EventFiringWebDriver@56554365
-&amp#27;[1;94m****LoginPage Test Started****&amp#27;[0m
-&amp#27;[1;90mI am in onTestStart method VerifycampusLogoTest start&amp#27;[0m
-&amp#27;[1;90mI am in onTestStart method VerifycampusLogoTest start&amp#27;[0m
-&amp#27;[1;94m****Verify the campus logo Test****&amp#27;[0m
-&amp#27;[1;95mTrying to find Element By : By.xpath: //div[@class='logo']//a//img&amp#27;[0m
-&amp#27;[1;95mFound Element By : By.xpath: //div[@class='logo']//a//img&amp#27;[0m
-&amp#27;[4;31mI am in onTestFailure method VerifycampusLogoTest failed&amp#27;[0m
-&amp#27;[1;91mScreenshot captured for test case:VerifycampusLogoTest&amp#27;[0m
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}) on port 45068
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1568182764.678][WARNING]: This version of ChromeDriver has not been tested with Chrome version 76.
-Sep 11, 2019 11:49:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="verifyHomepageLinks" classname="com.campus.qa.testcases.HomePageTest" time="0.853"/>
-  <testcase name="ToPlaceAnOrderAsRegisteredUser" classname="com.campus.qa.testcases.PlaceOrderAsRegisteredUserTest" time="212.315"/>
-  <testcase name="VerifyclickLoginnowTest" classname="com.campus.qa.testcases.LoginPageTest" time="23.426">
-    <failure message="element not interactable&#10;  (Session info: chrome=76.0.3809.132)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-AL9GHFP&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55507}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: d123affeb89466d4c64c0c6022e56215" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: 
-element not interactable
+&amp#27;[1;92m*****Test for placing Order as Registered and UnRegistered Users both is intialized****&amp#27;[0m
+&amp#27;[1;90mI am in onTestStart method ToPlaceAnOrderAsRegisteredUser start&amp#27;[0m
+&amp#27;[1;90mI am in onTestStart method ToPlaceAnOrderAsRegisteredUser start&amp#27;[0m
+&amp#27;[1;92m*****Place Order As Registered User is intialized****&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.xpath: //select[@name='county']&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: //select[@name='county']&amp#27;[0m
+&amp#27;[1;92m*****County dropdown is enabled****&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.xpath: //select[@name='county']&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: //select[@name='county']&amp#27;[0m
+&amp#27;[1;92m*****County dropdown is opened****&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.xpath: //select[@name='county']&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: //select[@name='county']&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.xpath: //select[@name='county']&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: //select[@name='county']&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.xpath: //select[@name='county']&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: //select[@name='county']&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.xpath: .//option[normalize-space(.) = "Dublin"]&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: .//option[normalize-space(.) = "Dublin"]&amp#27;[0m
+&amp#27;[1;95mTrying to click on: [[[[ChromeDriver: chrome on XP (b84928c0f7aa08a4210b6bd0bc126e06)] -> xpath: //select[@name='county']]] -> xpath: .//option[normalize-space(.) = "Dublin"]]&amp#27;[0m
+&amp#27;[1;95mClicked on: [[[[ChromeDriver: chrome on XP (b84928c0f7aa08a4210b6bd0bc126e06)] -> xpath: //select[@name='county']]] -> xpath: .//option[normalize-space(.) = "Dublin"]]&amp#27;[0m
+&amp#27;[1;92m****County is selected****&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.xpath: //select[@name='county']&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: //select[@name='county']&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.tagName: option&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.tagName: option&amp#27;[0m
+DUBLIN
+&amp#27;[1;95mTrying to find Element By : By.xpath: //select[@name='oil_type']&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: //select[@name='oil_type']&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.xpath: //select[@name='oil_type']&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: //select[@name='oil_type']&amp#27;[0m
+&amp#27;[1;92m*****Oil Type dropdown is selected****&amp#27;[0m
+&amp#27;[1;92m*****Scrolled down****&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.xpath: //select[@name='oil_type']&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: //select[@name='oil_type']&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.xpath: //select[@name='oil_type']&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: //select[@name='oil_type']&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.xpath: //select[@name='oil_type']&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: //select[@name='oil_type']&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.xpath: .//option[normalize-space(.) = "Kerosene"]&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: .//option[normalize-space(.) = "Kerosene"]&amp#27;[0m
+&amp#27;[1;95mTrying to click on: [[[[ChromeDriver: chrome on XP (b84928c0f7aa08a4210b6bd0bc126e06)] -> xpath: //select[@name='oil_type']]] -> xpath: .//option[normalize-space(.) = "Kerosene"]]&amp#27;[0m
+&amp#27;[1;95mClicked on: [[[[ChromeDriver: chrome on XP (b84928c0f7aa08a4210b6bd0bc126e06)] -> xpath: //select[@name='oil_type']]] -> xpath: .//option[normalize-space(.) = "Kerosene"]]&amp#27;[0m
+&amp#27;[1;92m*****OilType is selected****&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.xpath: //select[@name='oil_type']&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: //select[@name='oil_type']&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.tagName: option&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.tagName: option&amp#27;[0m
+KEROSENE
+&amp#27;[1;95mTrying to find Element By : By.xpath: //select[@name='litres']&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: //select[@name='litres']&amp#27;[0m
+&amp#27;[1;92m*****Litres dropdown is enabled****&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.xpath: //select[@name='litres']&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: //select[@name='litres']&amp#27;[0m
+&amp#27;[1;92m*****Litres dropdown is clicked****&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.xpath: //select[@name='litres']&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: //select[@name='litres']&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.xpath: //select[@name='litres']&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: //select[@name='litres']&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.xpath: //select[@name='litres']&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: //select[@name='litres']&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.xpath: .//option[normalize-space(.) = "300"]&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: .//option[normalize-space(.) = "300"]&amp#27;[0m
+&amp#27;[1;95mTrying to click on: [[[[ChromeDriver: chrome on XP (b84928c0f7aa08a4210b6bd0bc126e06)] -> xpath: //select[@name='litres']]] -> xpath: .//option[normalize-space(.) = "300"]]&amp#27;[0m
+&amp#27;[1;95mClicked on: [[[[ChromeDriver: chrome on XP (b84928c0f7aa08a4210b6bd0bc126e06)] -> xpath: //select[@name='litres']]] -> xpath: .//option[normalize-space(.) = "300"]]&amp#27;[0m
+&amp#27;[1;92m*****Selected the option from dropdown****&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.xpath: //select[@name='litres']&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: //select[@name='litres']&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.tagName: option&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.tagName: option&amp#27;[0m
+300
+&amp#27;[1;95mTrying to find Element By : By.xpath: //input[@id='orderform-submit']&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: //input[@id='orderform-submit']&amp#27;[0m
+&amp#27;[1;92m*****Clicked on Get Quote button****&amp#27;[0m
+&amp#27;[1;92m*****Navigated to Order Page****&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.xpath: //h2[@id='yourqoute-text']&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: //h2[@id='yourqoute-text']&amp#27;[0m
+&amp#27;[1;92m*****Your Quote text value is captured****&amp#27;[0m
+&amp#27;[1;92m*****Integer value from Your quote text is captured into an array****&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.xpath: //input[@id='order-amount-field']&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: //input[@id='order-amount-field']&amp#27;[0m
+&amp#27;[1;92m*****Camparing the order totals****&amp#27;[0m
+&amp#27;[1;92m*****Validation method for county****&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.xpath: //select [@id='order-county-field']&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: //select [@id='order-county-field']&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.xpath: //select [@id='order-county-field']&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: //select [@id='order-county-field']&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.xpath: //select [@id='order-county-field']&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: //select [@id='order-county-field']&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.tagName: option&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.tagName: option&amp#27;[0m
+&amp#27;[1;92m*****County is validated****&amp#27;[0m
+&amp#27;[1;92m*****Oil type validation method****&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.xpath: //select [@id='order-fueltype']&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: //select [@id='order-fueltype']&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.xpath: //select [@id='order-fueltype']&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: //select [@id='order-fueltype']&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.xpath: //select [@id='order-fueltype']&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: //select [@id='order-fueltype']&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.tagName: option&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.tagName: option&amp#27;[0m
+&amp#27;[1;92m*****Oil type is validated****&amp#27;[0m
+&amp#27;[1;92m*****Quantity validation method****&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.xpath: //input[@id='order-quantity-field']&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: //input[@id='order-quantity-field']&amp#27;[0m
+&amp#27;[1;92m*****Quantity field is validated****&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.xpath: //input[@type='submit'][@value='ORDER NOW']&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: //input[@type='submit'][@value='ORDER NOW']&amp#27;[0m
+&amp#27;[1;95mTrying to click on: [[ChromeDriver: chrome on XP (b84928c0f7aa08a4210b6bd0bc126e06)] -> xpath: //input[@type='submit'][@value='ORDER NOW']]&amp#27;[0m
+&amp#27;[1;95mClicked on: [[ChromeDriver: chrome on XP (b84928c0f7aa08a4210b6bd0bc126e06)] -> xpath: //input[@type='submit'][@value='ORDER NOW']]&amp#27;[0m
+&amp#27;[1;92m*****Clicked on order now button redirects to Login and Register page****&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.xpath: //a[@class='button white']&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: //a[@class='button white']&amp#27;[0m
+&amp#27;[1;95mTrying to click on: [[ChromeDriver: chrome on XP (b84928c0f7aa08a4210b6bd0bc126e06)] -> xpath: //a[@class='button white']]&amp#27;[0m
+&amp#27;[1;95mClicked on: [[ChromeDriver: chrome on XP (b84928c0f7aa08a4210b6bd0bc126e06)] -> xpath: //a[@class='button white']]&amp#27;[0m
+&amp#27;[1;92m*****Cliked on Register now button redirects to checkout page****&amp#27;[0m
+&amp#27;[1;92m*****Place Order As Registered User is intialized****&amp#27;[0m
+&amp#27;[1;92m*****Enter the email and validate the user and popup displays for existing user to login****&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.xpath: //input[@name='billing_email']&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: //input[@name='billing_email']&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.xpath: //input[@name='billing_email']&amp#27;[0m
+&amp#27;[1;95mFound Element By : By.xpath: //input[@name='billing_email']&amp#27;[0m
+&amp#27;[1;95mTrying to find Element By : By.xpath: //div[@class='woo-login-popup-sc-left']//div[@id='woo-login-popup-sc-login']//form//p[1]//input[@name='username']&amp#27;[0m
+&amp#27;[1;91mException occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='woo-login-popup-sc-left']//div[@id='woo-login-popup-sc-login']//form//p[1]//input[@name='username']"}
   (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'DESKTOP-AL9GHFP', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55507}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d123affeb89466d4c64c0c6022e56215
-	at com.campus.qa.testcases.LoginPageTest.VerifyclickLoginnowTest(LoginPageTest.java:66)
-</failure>
-    <system-out><![CDATA[&amp#27;[0;102mI am in onTestSuccess method ToPlaceAnOrderAsRegisteredUser succeed&amp#27;[0m
-&amp#27;[1;92m*****Test Completed and quitting the browser****&amp#27;[0m
-Intialization testorg.openqa.selenium.support.events.EventFiringWebDriver@70ad0854
-org.openqa.selenium.support.events.EventFiringWebDriver@3d2ff73a
-&amp#27;[1;95mBefore navigating to: 'https://campusoil.awebdigital.co/'&amp#27;[0m
-&amp#27;[1;95mNavigated to:'https://campusoil.awebdigital.co/'&amp#27;[0m
-Intialization test 2org.openqa.selenium.support.events.EventFiringWebDriver@3d2ff73a
-&amp#27;[1;94m****LoginPage Test Started****&amp#27;[0m
-&amp#27;[1;90mI am in onTestStart method VerifyclickLoginnowTest start&amp#27;[0m
-&amp#27;[1;90mI am in onTestStart method VerifyclickLoginnowTest start&amp#27;[0m
-&amp#27;[1;94m****Verify the login button Test****&amp#27;[0m
-&amp#27;[1;95mTrying to find Element By : By.xpath: //div[@class='main-menu desktop']//a[contains(text(),'Login')]&amp#27;[0m
-&amp#27;[1;95mFound Element By : By.xpath: //div[@class='main-menu desktop']//a[contains(text(),'Login')]&amp#27;[0m
-&amp#27;[1;95mTrying to click on: [[ChromeDriver: chrome on XP (d123affeb89466d4c64c0c6022e56215)] -> xpath: //div[@class='main-menu desktop']//a[contains(text(),'Login')]]&amp#27;[0m
-&amp#27;[1;91mException occured: org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=76.0.3809.132)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-AL9GHFP', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55507}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d123affeb89466d4c64c0c6022e56215&amp#27;[0m
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56657}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b84928c0f7aa08a4210b6bd0bc126e06
+*** Element info: {Using=xpath, value=//div[@class='woo-login-popup-sc-left']//div[@id='woo-login-popup-sc-login']//form//p[1]//input[@name='username']}&amp#27;[0m
 &amp#27;[1;91mTook Screenshot of error  &amp#27;[0m
-&amp#27;[4;31mI am in onTestFailure method VerifyclickLoginnowTest failed&amp#27;[0m
-&amp#27;[1;91mScreenshot captured for test case:VerifyclickLoginnowTest&amp#27;[0m
+&amp#27;[4;31mI am in onTestFailure method ToPlaceAnOrderAsRegisteredUser failed&amp#27;[0m
+&amp#27;[1;91mScreenshot captured for test case:ToPlaceAnOrderAsRegisteredUser&amp#27;[0m
+&amp#27;[4;31mI am in onTestFailure method ToPlaceAnOrderAsRegisteredUser failed&amp#27;[0m
+&amp#27;[1;91mScreenshot captured for test case:ToPlaceAnOrderAsRegisteredUser&amp#27;[0m
+09-11-2019 12:26:43 AllureLifecycle.java ERROR [main] allure.AllureLifecycle 609 - Could not add attachment: no test is running
+09-11-2019 12:26:43 AllureLifecycle.java ERROR [main] allure.AllureLifecycle 609 - Could not add attachment: no test is running
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}) on port 13911
+    <system-err><![CDATA[Starting ChromeDriver 75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}) on port 2726
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1568183021.318][WARNING]: This version of ChromeDriver has not been tested with Chrome version 76.
-Sep 11, 2019 11:53:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1568184944.528][WARNING]: This version of ChromeDriver has not been tested with Chrome version 76.
+[1568184944.627][WARNING]: This version of ChromeDriver has not been tested with Chrome version 76.
+Sep 11, 2019 12:25:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="verifyPageHeaderBannerLinks" classname="com.campus.qa.testcases.HomePageTest" time="0.179"/>
-  <testcase name="VerifyloginTest" classname="com.campus.qa.testcases.LoginPageTest" time="23.93">
-    <failure message="element not interactable&#10;  (Session info: chrome=76.0.3809.132)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-AL9GHFP&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55610}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 6c6e7bc0f35d6433072fda1b40784811" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: 
-element not interactable
-  (Session info: chrome=76.0.3809.132)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-AL9GHFP', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55610}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6c6e7bc0f35d6433072fda1b40784811
-	at com.campus.qa.testcases.LoginPageTest.VerifyloginTest(LoginPageTest.java:73)
-</failure>
-    <system-out><![CDATA[&amp#27;[0;102mI am in onTestSuccess method verifyPageHeaderBannerLinks succeed&amp#27;[0m
-&amp#27;[1;94m****Quitting the browser****&amp#27;[0m
-Intialization testorg.openqa.selenium.support.events.EventFiringWebDriver@35a2ea5a
-org.openqa.selenium.support.events.EventFiringWebDriver@92775a3
-&amp#27;[1;95mBefore navigating to: 'https://campusoil.awebdigital.co/'&amp#27;[0m
-&amp#27;[1;95mNavigated to:'https://campusoil.awebdigital.co/'&amp#27;[0m
-Intialization test 2org.openqa.selenium.support.events.EventFiringWebDriver@92775a3
-&amp#27;[1;94m****LoginPage Test Started****&amp#27;[0m
-&amp#27;[1;90mI am in onTestStart method VerifyloginTest start&amp#27;[0m
-&amp#27;[1;90mI am in onTestStart method VerifyloginTest start&amp#27;[0m
-&amp#27;[1;94m****Verify the login into website Test****&amp#27;[0m
-&amp#27;[1;95mTrying to find Element By : By.xpath: //div[@class='main-menu desktop']//a[contains(text(),'Login')]&amp#27;[0m
-&amp#27;[1;95mFound Element By : By.xpath: //div[@class='main-menu desktop']//a[contains(text(),'Login')]&amp#27;[0m
-&amp#27;[1;95mTrying to click on: [[ChromeDriver: chrome on XP (6c6e7bc0f35d6433072fda1b40784811)] -> xpath: //div[@class='main-menu desktop']//a[contains(text(),'Login')]]&amp#27;[0m
-&amp#27;[1;91mException occured: org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=76.0.3809.132)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-AL9GHFP', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55610}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6c6e7bc0f35d6433072fda1b40784811&amp#27;[0m
-&amp#27;[1;91mTook Screenshot of error  &amp#27;[0m
-&amp#27;[4;31mI am in onTestFailure method VerifyloginTest failed&amp#27;[0m
-&amp#27;[1;91mScreenshot captured for test case:VerifyloginTest&amp#27;[0m
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}) on port 43897
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1568183075.256][WARNING]: This version of ChromeDriver has not been tested with Chrome version 76.
-Sep 11, 2019 11:54:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="verifyPageFooterLogoTest" classname="com.campus.qa.testcases.HomePageTest" time="0.169"/>
-  <testcase name="verifyTitle" classname="com.campus.qa.testcases.HomePageTest" time="1.944">
-    <failure message="expected [Order Heating Oil Online Buy Heating Oil Ireland] but found [Order Home Heating Oil Online Buy Heating Oil Ireland]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Order Heating Oil Online Buy Heating Oil Ireland] but found [Order Home Heating Oil Online Buy Heating Oil Ireland]
-	at com.campus.qa.testcases.HomePageTest.verifyTitle(HomePageTest.java:66)
-</failure>
-    <system-out><![CDATA[&amp#27;[0;102mI am in onTestSuccess method verifyPageFooterLogoTest succeed&amp#27;[0m
-&amp#27;[1;94m****Quitting the browser****&amp#27;[0m
-org.openqa.selenium.support.events.EventFiringWebDriver@e30a8ef
-&amp#27;[1;95mBefore navigating to: 'https://campusoil.awebdigital.co/'&amp#27;[0m
-&amp#27;[1;95mNavigated to:'https://campusoil.awebdigital.co/'&amp#27;[0m
-&amp#27;[1;90mI am in onTestStart method verifyTitle start&amp#27;[0m
-&amp#27;[1;90mI am in onTestStart method verifyTitle start&amp#27;[0m
-&amp#27;[1;94m****Verifying the tile of campus oil Test****&amp#27;[0m
-&amp#27;[4;31mI am in onTestFailure method verifyTitle failed&amp#27;[0m
-&amp#27;[1;91mScreenshot captured for test case:verifyTitle&amp#27;[0m
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}) on port 4930
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1568183124.346][WARNING]: This version of ChromeDriver has not been tested with Chrome version 76.
-Sep 11, 2019 11:55:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="verifyAboutUSLinkTest" classname="com.campus.qa.testcases.HomePageTest" time="2.189"/>
-  <testcase name="verifyNewsLinkTest" classname="com.campus.qa.testcases.HomePageTest" time="2.332"/>
-  <testcase name="verifyOrderFormpageLinkTest" classname="com.campus.qa.testcases.HomePageTest" time="2.159"/>
 </testsuite>

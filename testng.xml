@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-2.4.dtd">
 <suite name="Campus Oil Test Automation Suite">
-  
   
   <listeners>
 		<listener class-name="com.qa.CampusOil.ReportListeners.ExtentReporterNG" />
 		<listener class-name="com.qa.CampusOil.ReportListeners.AllureReportListener" />
 	</listeners>
   
-  <test thread-count="5" name="Automated Test Run">
+  <test name="Automated Test Run">
     <classes>
-      <class name="com.campus.qa.testcases.LoginPageTest"/>
-      <class name="com.campus.qa.testcases.HomePageTest"/>
+    <!--   <class name="com.campus.qa.testcases.LoginPageTest"/>
+      <class name="com.campus.qa.testcases.HomePageTest"/> -->
       <class name="com.campus.qa.testcases.PlaceOrderAsRegisteredUserTest"/>
     </classes>
+    
   </test> <!-- Test -->
 </suite> <!-- Suite -->
